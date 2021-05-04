@@ -78,6 +78,15 @@ EL1 = "setup/countries/greece/elimia.txt"
 PEA = "setup/countries/greece/paionia.txt"
 DOE = "setup/countries/greece/doberos.txt"
 PAH = "setup/countries/greece/paphos.txt"
+PR1 = "setup/countries/greece/priene.txt" 
+SMY = "setup/countries/greece/smyrna.txt"
+KNA = "setup/countries/greece/kolonai.txt" 
+PHS = "setup/countries/greece/phaselis.txt"
+SCP = "setup/countries/greece/scepsis.txt"
+TMA = "setup/countries/greece/therma.txt"
+AKT = "setup/countries/greece/akanthos.txt"
+DPN = "setup/countries/greece/dolopia.txt"
+ASO = "setup/countries/greece/assos.txt"
 
 # Crimea and Abkhazia
 
@@ -129,6 +138,7 @@ PON = "setup/countries/anatolia/pontus.txt"
 PAP = "setup/countries/anatolia/paphlagonia.txt"
 # NEW ANATOLIA 
 URA = "setup/countries/anatolia/urartu.txt"
+LYD = "setup/countries/anatolia/lydia.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
