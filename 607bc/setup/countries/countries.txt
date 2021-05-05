@@ -87,6 +87,12 @@ TMA = "setup/countries/greece/therma.txt"
 AKT = "setup/countries/greece/akanthos.txt"
 DPN = "setup/countries/greece/dolopia.txt"
 ASO = "setup/countries/greece/assos.txt"
+TES = "setup/countries/greece/teos.txt"
+PYD = "setup/countries/greece/pydna.txt"
+EPS = "setup/countries/greece/ephesos.txt"
+KOP = "setup/countries/greece/kolophon.txt"
+MTR = "setup/countries/greece/metropolis.txt"
+SMI = "setup/countries/greece/solymi.txt"
 
 # Crimea and Abkhazia
 
@@ -171,6 +177,7 @@ MOB = "setup/countries/syria/moab.txt"
 AMN = "setup/countries/syria/ammon.txt"
 SU1 = "setup/countries/syria/sur.txt"
 ASS = "setup/countries/syria/assyria.txt"
+AKA = "setup/countries/syria/akka.txt"
 ####SULLA####
 
 # Italic
@@ -535,6 +542,8 @@ GRH = "setup/countries/arabia/gerrha.txt"
 TQF = "setup/countries/arabia/thaqif.txt"
 THD = "setup/countries/arabia/thamud.txt"
 QDA = "setup/countries/arabia/qadaritia.txt"
+# ARABIA NEW 
+MED = "setup/countries/arabia/medes.txt"
 
 #India/Tibet
 MRY = "setup/countries/india/mauryas.txt"
