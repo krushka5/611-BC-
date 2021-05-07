@@ -93,6 +93,14 @@ EPS = "setup/countries/greece/ephesos.txt"
 KOP = "setup/countries/greece/kolophon.txt"
 MTR = "setup/countries/greece/metropolis.txt"
 SMI = "setup/countries/greece/solymi.txt"
+ERY = "setup/countries/greece/erythrai.txt"
+MYS = "setup/countries/greece/mysia.txt"
+MEH = "setup/countries/greece/megara hyblaia.txt"
+ZKL = "setup/countries/greece/zancle.txt"
+KMS = "setup/countries/greece/kameiros.txt"
+SOL = "setup/countries/greece/soloi.txt"
+NSS = "setup/countries/greece/naxos siculia.txt"
+TEE = "setup/countries/greece/tegeatis.txt"
 
 # Crimea and Abkhazia
 
@@ -130,6 +138,8 @@ ELT = "setup/countries/greece/eleutherna.txt"
 ## Thracia/Illyria
 TRE = "setup/countries/greece/thrace.txt"
 ODR = "setup/countries/greece/odrysia.txt"
+# NEW THRACIAN
+HDS = "setup/countries/greece/halmydessus.txt"
 
 ## Asia Minor
 COR = "setup/countries/syria/corduene.txt"
@@ -145,6 +155,9 @@ PAP = "setup/countries/anatolia/paphlagonia.txt"
 # NEW ANATOLIA 
 URA = "setup/countries/anatolia/urartu.txt"
 LYD = "setup/countries/anatolia/lydia.txt"
+KBY = "setup/countries/anatolia/kibyra.txt"
+BBN = "setup/countries/anatolia/boubon.txt"
+BBL = "setup/countries/anatolia/balboura.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
@@ -178,6 +191,7 @@ AMN = "setup/countries/syria/ammon.txt"
 SU1 = "setup/countries/syria/sur.txt"
 ASS = "setup/countries/syria/assyria.txt"
 AKA = "setup/countries/syria/akka.txt"
+EDO = "setup/countries/syria/edom.txt"
 ####SULLA####
 
 # Italic
@@ -544,6 +558,8 @@ THD = "setup/countries/arabia/thamud.txt"
 QDA = "setup/countries/arabia/qadaritia.txt"
 # ARABIA NEW 
 MED = "setup/countries/arabia/medes.txt"
+SSA = "setup/countries/arabia/susa.txt"
+DMN = "setup/countries/arabia/dilmun.txt"
 
 #India/Tibet
 MRY = "setup/countries/india/mauryas.txt"
@@ -677,6 +693,10 @@ HEM = "setup/countries/italia/herakleia_minoa.txt"
 TYN = "setup/countries/italia/tyndaria.txt"
 CLA = "setup/countries/italia/calactea.txt"
 SIN = "setup/countries/italia/selinous.txt"
+# NEW SICILY 
+ELY = "setup/countries/italia/elymoi.txt"
+SKO = "setup/countries/italia/sikanoi.txt"
+SKL = "setup/countries/italia/sikeloi.txt"
 
 # Extra Boeotia
 AMP = "setup/countries/greece/amphissa.txt"
