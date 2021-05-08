@@ -101,6 +101,11 @@ KMS = "setup/countries/greece/kameiros.txt"
 SOL = "setup/countries/greece/soloi.txt"
 NSS = "setup/countries/greece/naxos siculia.txt"
 TEE = "setup/countries/greece/tegeatis.txt"
+PEP = "setup/countries/greece/peparethos.txt"
+ACH = "setup/countries/greece/arcadia.txt"
+TRR = "setup/countries/greece/torone.txt"
+MAL = "setup/countries/greece/mallos.txt"
+SDE = "setup/countries/greece/side.txt"
 
 # Crimea and Abkhazia
 
@@ -158,6 +163,12 @@ LYD = "setup/countries/anatolia/lydia.txt"
 KBY = "setup/countries/anatolia/kibyra.txt"
 BBN = "setup/countries/anatolia/boubon.txt"
 BBL = "setup/countries/anatolia/balboura.txt"
+CMM = "setup/countries/anatolia/cimmeria.txt"
+TBN = "setup/countries/anatolia/tabal.txt"
+TWW = "setup/countries/anatolia/tuwanuwa.txt"
+CLS = "setup/countries/anatolia/cilicia.txt"
+KMM = "setup/countries/anatolia/kummuh.txt"
+PRD = "setup/countries/anatolia/pirindu.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
@@ -192,6 +203,7 @@ SU1 = "setup/countries/syria/sur.txt"
 ASS = "setup/countries/syria/assyria.txt"
 AKA = "setup/countries/syria/akka.txt"
 EDO = "setup/countries/syria/edom.txt"
+PLS = "setup/countries/syria/philistine.txt"
 ####SULLA####
 
 # Italic
@@ -560,6 +572,7 @@ QDA = "setup/countries/arabia/qadaritia.txt"
 MED = "setup/countries/arabia/medes.txt"
 SSA = "setup/countries/arabia/susa.txt"
 DMN = "setup/countries/arabia/dilmun.txt"
+MDA = "setup/countries/arabia/midian.txt"
 
 #India/Tibet
 MRY = "setup/countries/india/mauryas.txt"
