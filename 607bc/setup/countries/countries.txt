@@ -6,6 +6,22 @@ MER = "setup/countries/mercenaries.txt"
 # Greece/Macedonia
 #CRT = "setup/countries/crete.txt"
 
+#Etruscans
+CSR = "setup/countries/italia/caisra.txt"
+TCH = "setup/countries/italia/tarchna.txt"
+VCH = "setup/countries/italia/velch.txt"
+VTL = "setup/countries/italia/vetluna.txt"
+FFL = "setup/countries/italia/fufluna.txt" 
+PRU = "setup/countries/italia/perusia.txt"
+CUN = "setup/countries/italia/curtun.txt"
+CLV = "setup/countries/italia/clevsin.txt"
+ART = "setup/countries/italia/arretium.txt"
+VEI = "setup/countries/italia/veii.txt"
+VZN = "setup/countries/italia/velzna.txt"
+PSN = "setup/countries/italia/pisna.txt"
+VMA = "setup/countries/italia/voltumnae.txt"
+RVA = "setup/countries/italia/ravena.txt"
+
 #New:
 ATH = "setup/countries/greece/athens.txt"
 SPA = "setup/countries/greece/sparta.txt"
@@ -106,6 +122,7 @@ ACH = "setup/countries/greece/arcadia.txt"
 TRR = "setup/countries/greece/torone.txt"
 MAL = "setup/countries/greece/mallos.txt"
 SDE = "setup/countries/greece/side.txt"
+PKP = "setup/countries/greece/panticapaeum.txt"
 
 # Crimea and Abkhazia
 
@@ -169,6 +186,15 @@ TWW = "setup/countries/anatolia/tuwanuwa.txt"
 CLS = "setup/countries/anatolia/cilicia.txt"
 KMM = "setup/countries/anatolia/kummuh.txt"
 PRD = "setup/countries/anatolia/pirindu.txt"
+PTI = "setup/countries/anatolia/pteria.txt"
+PPL = "setup/countries/anatolia/paphlagonia.txt"
+CHB = "setup/countries/anatolia/chalybes.txt"
+MCR = "setup/countries/anatolia/macrone.txt"
+TYB = "setup/countries/anatolia/thybaraena.txt"
+MSA = "setup/countries/anatolia/mossyniki.txt"
+TMO = "setup/countries/anatolia/timonion.txt" 
+MID = "setup/countries/anatolia/melid.txt"
+KTE = "setup/countries/anatolia/khate.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
@@ -255,6 +281,9 @@ MRS = "setup/countries/italia/marsia.txt"
 SIO = "setup/countries/italia/sipontum.txt"
 SYR = "setup/countries/italia/syracusae.txt"
 ACR = "setup/countries/italia/acragas.txt"
+SUK = "setup/countries/italia/sulki.txt"
+TIB = "setup/countries/italia/tiber.txt"
+LAV = "setup/countries/italia/lavinium.txt"
 
 #Britannic
 
