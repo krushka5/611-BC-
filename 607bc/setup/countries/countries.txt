@@ -21,6 +21,9 @@ VZN = "setup/countries/italia/velzna.txt"
 PSN = "setup/countries/italia/pisna.txt"
 VMA = "setup/countries/italia/voltumnae.txt"
 RVA = "setup/countries/italia/ravena.txt"
+IRN = "setup/countries/italia/irna.txt"
+CPA = "setup/countries/italia/capua.txt"
+MTU = "setup/countries/italia/mantua.txt"
 
 #New:
 ATH = "setup/countries/greece/athens.txt"
@@ -137,6 +140,14 @@ TIC = "setup/countries/greece/trikka.txt"
 DIN = "setup/countries/greece/dion.txt"
 PTH = "setup/countries/greece/phthia.txt"
 ZAK = "setup/countries/greece/zakynthos.txt"
+OUS = "setup/countries/greece/opous.txt"
+KPL = "setup/countries/greece/kephallenia.txt"
+SRI = "setup/countries/greece/siris.txt"
+BYA = "setup/countries/greece/borysthenia.txt"
+SIK = "setup/countries/greece/sikyon.txt"
+PRG = "setup/countries/greece/perge.txt"
+SIL = "setup/countries/greece/sillyon.txt"
+ASD = "setup/countries/greece/aspendos.txt"
 
 # Crimea and Abkhazia
 
@@ -211,6 +222,9 @@ TMO = "setup/countries/anatolia/timonion.txt"
 MID = "setup/countries/anatolia/melid.txt"
 KTE = "setup/countries/anatolia/khate.txt"
 MDY = "setup/countries/anatolia/mariandynia.txt"
+CCA = "setup/countries/anatolia/cennatia.txt"
+SEG = "setup/countries/anatolia/selgia.txt"
+ETN = "setup/countries/anatolia/etenna.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
@@ -300,6 +314,7 @@ ACR = "setup/countries/italia/acragas.txt"
 SUK = "setup/countries/italia/sulki.txt"
 TIB = "setup/countries/italia/tiber.txt"
 LAV = "setup/countries/italia/lavinium.txt"
+AEQ = "setup/countries/italia/aequi.txt"
 
 #Britannic
 
@@ -718,6 +733,7 @@ SCY = "setup/countries/greece/scythia_europea.txt"
 ZGY = "setup/countries/caucasiamesopotamia/zygia.txt"
 HNY = "setup/countries/caucasiamesopotamia/heniochia.txt"
 PHI = "setup/countries/caucasiamesopotamia/phasis.txt"
+TR1 = "setup/countries/ukraine/tauris.txt"
 
 #Extra Germany
 BUR = "setup/countries/germania/burgundia.txt"
