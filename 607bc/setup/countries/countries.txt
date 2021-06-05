@@ -24,6 +24,8 @@ RVA = "setup/countries/italia/ravena.txt"
 IRN = "setup/countries/italia/irna.txt"
 CPA = "setup/countries/italia/capua.txt"
 MTU = "setup/countries/italia/mantua.txt"
+VRX = "setup/countries/italia/vrixia.txt"
+CHN = "setup/countries/italia/charumnia.txt"
 
 #New:
 ATH = "setup/countries/greece/athens.txt"
@@ -94,7 +96,7 @@ SYM = "setup/countries/greece/syme.txt"
 LRS = "setup/countries/greece/leros.txt"
 KPO = "setup/countries/greece/karpathos.txt"
 EL1 = "setup/countries/greece/elimia.txt"
-PEA = "setup/countries/greece/paionia.txt"
+#PEA = "setup/countries/greece/paionia.txt"
 DOE = "setup/countries/greece/doberos.txt"
 PAH = "setup/countries/greece/paphos.txt"
 PR1 = "setup/countries/greece/priene.txt" 
@@ -148,6 +150,14 @@ SIK = "setup/countries/greece/sikyon.txt"
 PRG = "setup/countries/greece/perge.txt"
 SIL = "setup/countries/greece/sillyon.txt"
 ASD = "setup/countries/greece/aspendos.txt"
+ACN = "setup/countries/greece/arcarnania.txt"
+SYL = "setup/countries/greece/scylletia.txt"
+ABY = "setup/countries/greece/abydos.txt"
+EDN = "setup/countries/greece/edonia.txt"
+ODM = "setup/countries/greece/odomantia.txt"
+KSI = "setup/countries/greece/krestonia.txt"
+MGD = "setup/countries/greece/mygdonia.txt"
+BSL = "setup/countries/greece/bisaltia.txt"
 
 # Crimea and Abkhazia
 
@@ -186,9 +196,12 @@ PH1 = "setup/countries/greece/pherai.txt"
 ## Thracia/Illyria
 TRE = "setup/countries/greece/thrace.txt"
 ODR = "setup/countries/greece/odrysia.txt"
+DII = "setup/countries/greece/dii.txt"
 # NEW THRACIAN
 HDS = "setup/countries/greece/halmydessus.txt"
-
+BSO = "setup/countries/greece/bessoi.txt"
+ABD = "setup/countries/greece/abdera.txt"
+ 
 ## Asia Minor
 COR = "setup/countries/syria/corduene.txt"
 
@@ -225,6 +238,12 @@ MDY = "setup/countries/anatolia/mariandynia.txt"
 CCA = "setup/countries/anatolia/cennatia.txt"
 SEG = "setup/countries/anatolia/selgia.txt"
 ETN = "setup/countries/anatolia/etenna.txt"
+ZLN = "setup/countries/anatolia/zelontis.txt"
+BZN = "setup/countries/anatolia/zamani.txt"
+GGM = "setup/countries/anatolia/gurgum.txt"
+THY = "setup/countries/anatolia/thynia.txt"
+MNE = "setup/countries/anatolia/matiania.txt"
+HYC = "setup/countries/anatolia/hyrcania.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
@@ -237,6 +256,8 @@ ALB = "setup/countries/caucasiamesopotamia/albania.txt"
 TRZ = "setup/countries/caucasiamesopotamia/trapezous.txt"
 BAC = "setup/countries/bactria/bactria.txt"
 PAR = "setup/countries/caucasiamesopotamia/parthia.txt"
+#NEWER 
+AMD = "setup/countries/caucasiamesopotamia/amardi.txt"
 
 # Arabia/Persia
 OSR = "setup/countries/syria/osroene.txt"
@@ -315,6 +336,14 @@ SUK = "setup/countries/italia/sulki.txt"
 TIB = "setup/countries/italia/tiber.txt"
 LAV = "setup/countries/italia/lavinium.txt"
 AEQ = "setup/countries/italia/aequi.txt"
+VCU = "setup/countries/italia/volscium.txt"
+DAI = "setup/countries/italia/daunia.txt"
+PCU = "setup/countries/italia/peucetia.txt"
+ARN = "setup/countries/italia/arimna.txt"
+PNI = "setup/countries/italia/parmnia.txt"
+FSN = "setup/countries/italia/felsna.txt"
+MTA = "setup/countries/italia/mutina.txt"
+CMN = "setup/countries/italia/cammuni.txt"
 
 #Britannic
 
@@ -374,7 +403,7 @@ TAT = "setup/countries/iberia/tartessos.txt"
 MST = "setup/countries/iberia/menesthei.txt"
 GAD = "setup/countries/iberia/gadir.txt"
 MAT = "setup/countries/iberia/mastia.txt"
-#CTI = "setup/countries/iberia/carteia.txt"
+CTI = "setup/countries/iberia/carteia.txt"
 SGS = "setup/countries/iberia/saguntines.txt"
 VAD = "setup/countries/iberia/varduli.txt"
 ORM = "setup/countries/iberia/orgenomesci.txt"
@@ -464,6 +493,13 @@ MTM = "setup/countries/iberia/muratum.txt"
 OC1 = "setup/countries/iberia/ocuri.txt"
 ATC = "setup/countries/iberia/antecur.txt"
 IPA = "setup/countries/iberia/iporia.txt"
+SEX = "setup/countries/iberia/sexi.txt"
+MIK = "setup/countries/iberia/mainake.txt"
+BCS = "setup/countries/iberia/bocchoria.txt"
+ROE = "setup/countries/iberia/rode.txt"
+HLK = "setup/countries/iberia/helike.txt"
+OLP = "setup/countries/iberia/oestrimnia.txt"
+ 
 #African
 
 CAR = "setup/countries/africa/carthage.txt"
@@ -627,6 +663,10 @@ TSC = "setup/countries/illyria_dacia/taurisci.txt"
 TLN = "setup/countries/illyria_dacia/taulantii.txt"
 DRD = "setup/countries/illyria_dacia/dardani.txt"
 SDI = "setup/countries/illyria_dacia/serdi.txt"
+# NEW 
+DRR = "setup/countries/illyria_dacia/derronia.txt"
+AGI = "setup/countries/illyria_dacia/agriania.txt"
+GLB = "setup/countries/illyira_dacia/galabria.txt"
 
 #Arabia
 SHB = "setup/countries/arabia/sheba.txt"
