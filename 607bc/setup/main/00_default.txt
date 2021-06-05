@@ -14,9 +14,18 @@ diplomacy = {
 	dependency = { first = TAT second = CDB subject_type = feudatory }
 	dependency = { first = TAT second = MAT subject_type = tributary }
 	dependency = { first = TAT second = AC1 subject_type = tributary }
+	dependency = { first = TAT second = OLP subject_type = tributary }
+	#Tartessian support for Greek colonia's startup 
+	guarantee = { first = TAT second = MIK }
+	guarantee = { first = TAT second = MST }
+	guarantee = { first = TAT second = HLK }
+	# Fractured Assyria Governates 
+	dependency = { first = ASS second = BZN subject_type = feudatory }
+	dependency = { first = ASS second = GGM subject_type = feudatory }
 	# Mare Iberium starting diplo 
 	dependency = { first = CAR second = MGO subject_type = tributary }
 	dependency = { first = CAR second = CPV subject_type = tributary }
+	dependency = { first = CAR second = BCS subject_type = tributary }
 	# Sur Subjects
 	dependency = { first = SU1 second = AKA subject_type = tributary }
 	dependency = { first = SU1 second = SID subject_type = tributary }
@@ -24,6 +33,38 @@ diplomacy = {
 	dependency = { first = SU1 second = BYB subject_type = tributary }
 	dependency = { first = SU1 second = ARA subject_type = tributary }
 	dependency = { first = SU1 second = CIT subject_type = tributary }
+	dependency = { first = SU1 second = ABD subject_type = tributary }
+	# Latin League 
+	defensive_league = {
+		member = ROM
+		member = TIB
+		member = LAV
+	}	
+	# Triarchy Boubon-Kibyra-Balboura
+	defensive_league = {
+		member = KBY
+		member = BBN
+		member = BBL
+	}
+	# Southern Etruscans 
+	defensive_league = {
+		member = NUC 
+		member = IRN 
+		member = CPA
+	}	
+	# Frontier Etruscans 
+	defensive_league = {
+		member = PNI  
+		member = MTU 
+		member = MTA 
+	}
+	# Punic Colonia Iberia  
+	defensive_league = {
+		member = GAD
+		member = CTI 
+		member = MLK
+		member = SEX
+	}
 }
 
 provinces = { #Any entry must contain a comment with city name.
@@ -422,9 +463,28 @@ country = {
 			}
 			
 			own_control_core = 	{
-				23 105 107 104
+				23 105 107 104 20
 			}
 
+		}
+		
+		IGN = {
+			government = tribal_kingdom
+			primary_culture = ligurian
+			religion = roman_pantheon
+
+			capital = 3547
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+		
+			own_control_core = 	{
+				3546 3547
+			}
 		}
 		
 		VNT = {
@@ -436,7 +496,19 @@ country = {
 		
 			own_control_core = 	{
 				3598 3599 3600 3603 3601 3604 3602 3605 3606 3607
-				3594 3595 3596 3590
+				3594 3596 
+			}
+		}
+		
+		CMN = {
+			government = tribal_kingdom
+			primary_culture = venetic
+			religion = roman_pantheon
+
+			capital = 3584
+		
+			own_control_core = 	{
+				3584 3590 3589 3595
 			}
 		}
 		
@@ -507,6 +579,27 @@ country = {
 			
 		}
 		
+		AEQ = {
+			government = tribal_kingdom
+			primary_culture = roman #CHANGE 
+			religion = roman_pantheon
+			centralization=8
+			capital = 27
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+		
+			own_control_core = 	{
+				27 24 19
+			}
+			
+			
+		}
+		
 		UMB = {
 			government = aristocratic_republic
 			primary_culture = umbrian
@@ -528,6 +621,47 @@ country = {
 			
 		}
 		
+		VCU = {
+			government = aristocratic_republic
+			primary_culture = umbrian
+			religion = roman_pantheon
+			centralization=8
+			capital = 25
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{
+				25 4
+			}
+			
+		}
+		
+		GUN = {
+			government = tribal_kingdom
+			primary_culture = ligurian
+			religion = roman_pantheon
+
+			capital = 141
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+
+
+			
+			own_control_core = 	{
+				3549 3552 141 154 3553
+			}
+		}
+		
 		DIT = {
 			government = tribal_kingdom
 			primary_culture = histrian
@@ -539,6 +673,49 @@ country = {
 				4033 4032 4023 4036 4050 4035 
 			}
 		}
+		
+		SAM = {
+			government = aristocratic_republic
+			primary_culture = samnite
+			religion = roman_pantheon
+			centralization=10
+			capital = 32
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+		
+			own_control_core = 	{
+				33 32 41 42 46 43 44 10 45 1716 1718
+			}
+			
+			treasures = { 41 }
+		}
+		
+		NUC = {
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = etruscan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1713
+		
+			own_control_core = 	{
+				1713 9
+			}
+			
+			
+		}		
 		
 		HIS = {
 			government = tribal_kingdom
@@ -607,7 +784,7 @@ country = {
 			}
 		
 			own_control_core = 	{
-				3589 3592 150 144 145 143 3593 3597
+				3592 150 144 145 143 3593 3597
 			}
 		}
 		
@@ -627,9 +804,256 @@ country = {
 			}
 			
 			own_control_core = 	{
-				60 70 71 59 53 47 11 13 61
+				60 70 71 59 53 47 11 13 
 				12 
+				51 77 76
 			}
+			
+		}
+		
+		PIE = {
+			government = tribal_kingdom
+			primary_culture = samnite
+			religion = roman_pantheon
+			centralization = 35
+			capital = 106
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+		
+			own_control_core = 	{
+				106 108 109 111
+			}
+			
+		}
+		
+		CRO = {
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = italiotian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 78
+		
+			own_control_core = 	{
+				78
+			}
+			
+		}
+		
+		
+		MET = {
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = italiotian
+			religion = roman_pantheon
+
+			capital = 55
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+		
+			own_control_core = 	{
+				55
+			}
+			
+		}
+		
+		RHG = {
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = italiotian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 72
+		
+			own_control_core = 	{
+				72
+			}
+			
+		}
+
+		LOC = {
+			government = plutocratic_republic
+			primary_culture = italiotian
+			religion = roman_pantheon
+
+			capital = 73
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+		
+			own_control_core = 	{
+				73
+			}
+			
+		}		
+		
+		SYL = {
+			government = plutocratic_republic
+			primary_culture = italiotian
+			religion = roman_pantheon
+
+			capital = 74
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+		
+			own_control_core = 	{
+				74
+			}
+			
+		}		
+		
+		MSP = {
+			government = tribal_kingdom
+			primary_culture = messapian
+			religion = roman_pantheon
+			centralization=8
+			capital = 62
+			diplomatic_stance=appeasement_stance
+			own_control_core = 	{
+				62 63 64 65 57
+			}
+			
+		}
+		
+		DAI = {
+			government = tribal_kingdom
+			primary_culture = messapian
+			religion = roman_pantheon
+			centralization=8
+			capital = 37
+			own_control_core = 	{
+				37 36 50
+			}
+			
+		}
+		
+		PCU = { # Consider splitting up into a federation of tribes? 
+			government = tribal_kingdom
+			primary_culture = messapian
+			religion = roman_pantheon
+			centralization=8
+			capital = 68
+			own_control_core = 	{
+				68 67 66 69 58 39
+			}
+			
+		}
+		
+		HPO = {
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = italiotian
+			religion = roman_pantheon
+
+			capital = 75
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+		
+			own_control_core = 	{
+				75
+			}
+			
+		}
+		
+		SRI = {
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = italiotian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 61
+		
+			own_control_core = 	{
+				61 54
+			}
+			
+		}
+		
+		TAR = {
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = italiotian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 56
+		
+			own_control_core = 	{
+				56
+			}
+			
+		}
+		
+		SIO = {
+			government = plutocratic_republic
+			diplomatic_stance=trading_stance
+			primary_culture = italiotian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 38
+		
+			own_control_core = 	{
+				38
+			}
+			
 			
 		}
 
@@ -881,6 +1305,25 @@ country = {
 			
 		}
 		
+		MTA = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 149	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				149 3588 3591
+			}
+			
+		}
+		
 		RVA = {
 			government = oligarchic_republic
 			primary_culture = etruscan 
@@ -895,7 +1338,159 @@ country = {
 			}
 			
 			own_control_core = {
-				142
+				142 147 148
+			}
+			
+		}
+		
+		ARN = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 133
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				133
+			}
+			
+		}
+		
+		PNI = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 152
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				152 3587 151
+			}
+			
+		}
+		
+		FSN = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 146
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				146
+			}
+			
+		}
+		
+		IRN = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 10	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				10
+			}
+			
+		}
+		
+		CPA = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 6	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				6
+			}
+			
+		}
+		
+		MTU = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 3586
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				3586
+			}
+			
+		}
+		
+		VRX = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 3581 
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				3581 
+			}
+			
+		}
+		
+		CHN = {
+			government = oligarchic_republic
+			primary_culture = etruscan 
+			religion = roman_pantheon
+			capital = 3582  
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				3582 3585 
 			}
 			
 		}
@@ -1082,6 +1677,26 @@ country = {
 			
 		}
 		
+		AST = {
+			government = plutocratic_republic
+			primary_culture = thracian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 243 #Astakos
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{
+				243 
+			}
+			
+		}
+		
 		COT = {
 			government = despotic_monarchy
 			primary_culture = achaean
@@ -1118,6 +1733,7 @@ country = {
 			
 			own_control_core = {
 				450 429 7892
+				471
 			}
 			
 		}
@@ -1251,6 +1867,25 @@ country = {
 
 			own_control_core = 	{
 				456 457 7803
+			}
+		}
+		
+		ACN = {
+			government = oligarchic_republic
+			primary_culture = aetolian
+			religion = roman_pantheon
+
+			capital = 463
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				463 462
 			}
 		}
 		
@@ -1736,6 +2371,96 @@ country = {
 			}
 		}
 		
+		EDN = {
+			government = despotic_monarchy
+			primary_culture = macedonian 
+			religion = roman_pantheon
+			capital = 365
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				364 365 363
+			}
+		}
+		
+		ODM = {
+			government = despotic_monarchy
+			primary_culture = macedonian 
+			religion = roman_pantheon
+			capital = 369
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				369 497 414
+			}
+		}
+		
+		KSI = {
+			government = despotic_monarchy
+			primary_culture = macedonian 
+			religion = roman_pantheon
+			capital = 386
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				386
+			}
+		}
+		
+		MGD = {
+			government = despotic_monarchy
+			primary_culture = macedonian 
+			religion = roman_pantheon
+			capital = 366
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				366
+			}
+		}
+		
+		BSL = {
+			government = despotic_monarchy
+			primary_culture = macedonian 
+			religion = roman_pantheon
+			capital = 371
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				371
+			}
+		}
+		
 		EL1 = {
 			government = aristocratic_monarchy
 			primary_culture = macedonian
@@ -1754,24 +2479,6 @@ country = {
 			}
 		}
 		
-		PEA = {
-			government = tribal_kingdom
-			primary_culture = paeonian
-			religion = roman_pantheon
-			capital = 4305
-			
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-			
-			own_control_core = {
-				4305 397 4303
-			}
-		}
-		
 		DOE = {
 			government = tribal_kingdom 
 			primary_culture = paeonian
@@ -1786,7 +2493,62 @@ country = {
 			}
 			
 			own_control_core = {
-				4302
+				4302 4305 397 4303
+				4304
+			}
+		}
+		
+		DRR = {
+			government = tribal_kingdom 
+			primary_culture = paeonian
+			religion = roman_pantheon
+			capital = 4096
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			own_control_core = {
+				4096 4108 4152 
+			}
+		}
+		
+		AGI = {
+			government = tribal_kingdom 
+			primary_culture = paeonian
+			religion = roman_pantheon
+			capital = 4096
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			own_control_core = {
+				4117
+			}
+		}
+		
+		DRD = {
+			government = tribal_kingdom
+			primary_culture = dardanian
+			religion = roman_pantheon
+
+			historical_regnal_numbers = {
+				Bardylis = 1
+				Grabos = 1
+				Pleuratos = 1
+			}
+			
+			capital = 4098
+
+			own_control_core = 	{
+				4098 4113 4100 4101 4119 4114 4110 4109 
 			}
 		}
 		
@@ -1898,6 +2660,44 @@ country = {
 			}
 		}
 		
+		ABY = {
+			government = despotic_monarchy
+			primary_culture = thracian  
+			religion = roman_pantheon
+			capital = 261 
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				261
+			}
+		}
+		
+		KIO = { #Kios
+			government = aristocratic_monarchy
+			primary_culture = thracian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 245
+
+			own_control_core = 	{
+				245 
+			}
+			
+		}
+		
 		PHS = {
 			government = despotic_monarchy
 			primary_culture = ionian  #CHANGE 
@@ -1913,6 +2713,61 @@ country = {
 			
 			own_control_core = {
 				164
+			}
+		}
+		
+		PRG = {
+			government = despotic_monarchy
+			primary_culture = ionian  #CHANGE 
+			religion = roman_pantheon
+			capital = 166 
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				166 165
+			}
+		}
+		
+		SIL = {
+			government = despotic_monarchy
+			primary_culture = ionian  #CHANGE 
+			religion = roman_pantheon
+			capital = 1911 
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				1911 
+			}
+		}
+		
+		
+		ASD = {
+			government = despotic_monarchy
+			primary_culture = ionian  #CHANGE 
+			religion = roman_pantheon
+			capital = 168 
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				168 
 			}
 		}
 		
@@ -2131,6 +2986,25 @@ country = {
 				248 249 251 
 			}
 		}
+		
+		TIE = { # Tieion
+			government = oligarchic_republic
+			primary_culture = greco_pontic
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 209
+			
+			own_control_core = 	{
+				209
+			}
+		}
 
 		ODR = {
 			government = tribal_kingdom 
@@ -2146,8 +3020,95 @@ country = {
 			}
 			
 			own_control_core = {
-				348 352 353 354 347 4154 4314 343 346
+				348 352 353 354 347 4154 4314 346
 				357 490
+				489 491 496 479 4313 478 484 4309 
+				493 4310 486
+			}
+		}
+		
+		THY = {
+			government = tribal_kingdom 
+			primary_culture = odrysi  
+			religion = shamanism 
+			capital = 495
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				495 4312 343
+			}
+		}
+		
+		DII = {
+			government = tribal_kingdom 
+			primary_culture = odrysi  
+			religion = shamanism 
+			capital = 494
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				494 360 492
+			}
+		}
+		
+		BSO = {
+			government = tribal_kingdom 
+			primary_culture = odrysi  
+			religion = shamanism 
+			capital = 487
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				487 485 4311
+			}
+		}		
+		
+		ABD = {
+			government = despotic_monarchy
+			primary_culture = phoenician
+			religion = carthaginian_pantheon
+			capital = 362
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				362
+			}
+		}
+		
+		SDI = { # Consider Removal?
+			government = tribal_kingdom
+			primary_culture = celtic_pannonian
+			religion = druidism
+			centralization=10
+			
+			capital = 477
+
+			own_control_core = 	{
+				477 4097 499
 			}
 		}
 		
@@ -2321,7 +3282,7 @@ country = {
 		
 		PKP = {
 			government = oligarchic_republic
-			primary_culture = greco_pontic 
+			primary_culture = bosporan 
 			religion = roman_pantheon
 			capital = 4549
 			
@@ -2353,6 +3314,26 @@ country = {
 			own_control_core = {
 				263
 			}
+		}
+		
+		PTA = { 
+			government = oligarchic_republic
+			primary_culture = achaean
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 434
+
+			own_control_core = 	{
+				434
+			}
+
 		}
 		
 		LAM = {
@@ -2461,6 +3442,38 @@ country = {
 
 			own_control_core = {
 				465
+			}
+		}
+		
+		
+		TLN = {
+			government = despotic_monarchy
+			primary_culture = taulantian
+			religion = roman_pantheon
+
+			capital = 415
+
+			own_control_core = 	{
+				415 3192 455 2264 2213 2336 1445
+			}
+		}
+		
+		APO = { # Apollonia
+			government = oligarchic_republic
+			primary_culture = italiotian
+			religion = roman_pantheon
+
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 422
+
+			own_control_core = 	{
+				422
 			}
 		}
 		
@@ -2626,6 +3639,140 @@ country = {
 				460
 			}
 		}
+		
+		KPL = {
+			government = despotic_monarchy
+			primary_culture = aetolian 
+			religion = roman_pantheon
+			capital = 461
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				461 459
+			}
+		}
+		
+		PHO = {
+			government = aristocratic_monarchy
+			primary_culture = boeotian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 7798
+
+			own_control_core = {
+				7798 424
+			}
+
+		}
+		
+		AIG = { 
+			government = oligarchic_republic
+			primary_culture = achaean
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 444
+
+			own_control_core = 	{
+				444
+			}
+		}
+		
+		PLE = {
+			government = oligarchic_republic
+			primary_culture = achaean
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 7893
+
+			own_control_core = 	{
+				7893
+			}
+		}
+		
+		SIK = {
+			government = aristocratic_monarchy
+			primary_culture = achaean
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 8003
+
+			own_control_core = 	{
+				8003
+			}
+		}
+		
+		DYM = {
+			government = oligarchic_republic
+			primary_culture = achaean
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 7890
+
+			own_control_core = {
+				7890
+			}
+		}
+		
+		OUS = {
+			government = aristocratic_monarchy
+			primary_culture = boeotian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 402
+
+			own_control_core = {
+				402
+			}
+
+		}
 		#Anatolia 
 		LYC = {
 			government = oligarchic_republic
@@ -2685,6 +3832,66 @@ country = {
 				170 7951 7956
 			}
 		}	
+		
+		SEG = {
+			government = tribal_federation 
+			primary_culture = pisidian
+			religion = anatolian_religion  
+			capital = 1885
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=1 progress=0 } #CHANGE 
+				oratory_tech={ level=1 progress=0 } #CHANGE 
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				1885
+			}
+		}	
+		
+		ETN = {
+			government = tribal_federation 
+			primary_culture = pisidian
+			religion = anatolian_religion  
+			capital = 7958
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=1 progress=0 } #CHANGE 
+				oratory_tech={ level=1 progress=0 } #CHANGE 
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				7958 1908
+			}
+		}	
+		
+		PDL = { # Pednelissia
+			government = tribal_federation
+			primary_culture = pisidian
+			religion = anatolian_religion
+
+			capital = 167
+
+			own_control_core = {
+				167
+			}
+		}
+		
+		SSG = { # Sagalassia
+			government = tribal_federation
+			primary_culture = pisidian
+			religion = anatolian_religion
+
+			capital = 1949
+
+			own_control_core = {
+				1949 1988
+			}
+		}
 
 		ISI = {
 			government = tribal_federation
@@ -2769,13 +3976,15 @@ country = {
 			}
 
 			own_control_core = 	{
-				1799 1796 1802 155 1794 1983 172 1976 1895 1994 158
+				1799 1796 1802 155 1794 1983 172 1976 1994 158
 				163 157 1999 1902 1803 1805
 				1893 6420 1891 1982
 				1818 1817 1813 1811 204 1820 7981 205 1954 173 1914 1800
 				1900 1788 
 				1912 1913 1932 1923 1978 1938 193
 				1916 1950 1975
+				1899 1849
+				1907 7999 1839 1845 1840
 			}
 			
 		}
@@ -2794,7 +4003,26 @@ country = {
 			}
 
 			own_control_core = 	{
-				1875 1873 1877 1878  
+				1875 1873 1877 1878 1979
+			}
+			
+		}
+		
+		GGM = { 
+			government = despotic_monarchy 
+			primary_culture = cilician  #CHANGE 
+			religion = anatolian_religion
+			capital = 1867
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=1 progress=0 } #CHANGE 
+				oratory_tech={ level=1 progress=0 } #CHANGE 
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				1867 1895
 			}
 			
 		}
@@ -2846,12 +4074,15 @@ country = {
 			capital = 858 
 			
 			own_control_core = {
-				858 235 1855 859 860 1853 1852 1859 1769 1857 1858 1856 8009 8007 
+				858 235 1855 1853 1852 1859 1769 1857 1858 1856 8009 8007 
 				1861
 				1929 1898 1886
 				8008 8010 4037 483 1744 1747 1751 
 				7844 1733 1766 1851
 				7845 1768 1767 1765 1764 1762 1698
+				1771 1842 1850 1848
+				1843 1844
+				1846
 			}
 		}
 
@@ -2864,6 +4095,18 @@ country = {
 
 			own_control_core = {
 				1919 1785 1780
+			}
+		}
+		
+		CCA = { 
+			government = tribal_federation
+			primary_culture = isaurian
+			religion = anatolian_religion
+
+			capital = 1896
+
+			own_control_core = {
+				1896 7963
 			}
 		}
 		
@@ -2908,8 +4151,9 @@ country = {
 			capital = 1784
 
 			own_control_core = {
-				1784 7963 1896 1890
+				1784 1890
 				1917 1897 1901
+				1904 1906 7962
 			}
 		}
 		
@@ -2934,6 +4178,20 @@ country = {
 
 			own_control_core = {
 				1836 1832 202 1825 1841 1909 197
+			}
+		}
+		
+		ZLN = { 
+			government = theocratic_monarchy  # Change? 
+			primary_culture = cappadocian
+			religion = anatolian_religion
+
+			# Tech? 
+
+			capital = 1834
+
+			own_control_core = {
+				1834 1838
 			}
 		}
 		
@@ -3052,6 +4310,24 @@ country = {
 			
 		}
 		
+		BZN = { 
+			government = despotic_monarchy 
+			primary_culture = cilician  #CHANGE 
+			religion = anatolian_religion
+			capital = 859 
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 } #CHANGE 
+				oratory_tech={ level=2 progress=0 } #CHANGE 
+				religious_tech= { level=2 progress=0  }
+			}
+
+			own_control_core = 	{
+				859 860
+			}
+			
+		}		
 		MDY = { 
 			government = tribal_federation
 			primary_culture = mariandynian 
@@ -3060,7 +4336,7 @@ country = {
 			capital = 238 
 
 			own_control_core = {
-				238 233 237 207 209 212 
+				238 233 237 207  
 			}
 		}
 		# Caucasus 
@@ -3111,6 +4387,24 @@ country = {
 			}
 		}
 		
+		MNE = {
+			government = despotic_monarchy
+			primary_culture = armenian
+			religion = zoroaster # CHANGE 
+			capital = 1517 
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				1517 1514 1512
+			}
+		}
+		
 		ZAM = { 
 			government = despotic_monarchy 
 			primary_culture = assyrian
@@ -3150,6 +4444,30 @@ country = {
 			}
 			
 		}	
+		
+		POT = {
+			government = tribal_kingdom
+			primary_culture = triballoi
+			religion = shamanism
+
+			capital = 4276	
+
+			own_control_core = 	{
+				4276 4267 4266 4268 4270 4278 4279 4277 4216 4215
+			}
+		}
+		
+		MOE = {
+			government = tribal_kingdom
+			primary_culture = moesi
+			religion = shamanism
+
+			capital = 4241
+
+			own_control_core = 	{
+				4237 4236 4238 4239 4245 4240 4241 4259 4244 4253 4252 4246 4242 4243 4258 4251 4256 4257
+			}
+		}
 
 		# Israel 
 		JUD = {
@@ -3167,7 +4485,7 @@ country = {
 			
 			own_control_core = {
 				687 688 689 691 692 711 #judea_region
-				690 693 695 694 658 657 697 696 662 
+				690 693 695 658 657 697 696 662 
 			}
 			
 		}
@@ -3320,6 +4638,7 @@ country = {
 			
 			own_control_core = {
 				661 660 659
+				694
 			}
 		}
 		
@@ -3367,7 +4686,7 @@ country = {
 				1879 1874 796 795 812
 				770 757 758 760 759 750 738 753 751 764 763 765 737 739 732 733 
 				784 788 786 785
-				1867 1868 1869 811
+				1868 1869 811
 				749 752 741
 				1847 837 818 840 879 844
 				855 871 872 832 830 876 873 868 867 833 
@@ -3390,10 +4709,10 @@ country = {
 			
 			own_control_core = {
 				292 300 299 301 274 305 298 296 295 294 1947 293 304 273 320 321 218 
-				245 250 323 324 322 317 319 302 303 306 246 243 242 239 236 244 247 325 7765 327 329 326 224 
+				250 323 324 322 317 319 302 303 306 246 242 239 236 244 247 325 7765 327 329 326 224 
 				234 221 225 189 228 229 190 176 174 177 180 191 192 181 188 175 227 316 
 				315 314 318 313 312 185 187 307 309 308 311 1944 1946 1945 1943 339 1942 1936 186 1937 1941  
-				184 183 328 1939 182 1777 178 179 230 1924 1922 1927 1926 1928 1935 1933 1930 1925 7760 1949 
+				184 183 328 1939 182 1777 178 179 230 1924 1922 1927 1926 1928 1935 1933 1930 1925 7760  
 				1931
 				226 222 196 194 195 
 				271 269 265 264 272 337 276
@@ -3419,9 +4738,9 @@ country = {
 			}
 			
 			own_control_core = {
-				1514 1515 1516 1517 1520 1521 1522 1523 1524 1525 1526 1565
-				4985 4986 4987 4989 3389 4988 3383 3388 4990 3385 3384 4984
-				1512 1552 1553 1554 1555 1556 1557 1558 3386
+				1515 1516 1520 1521 1522 1523 1524 1525 1526 1565
+				4989 3389 4988 3383 3388 4990 3385 3384 4984
+				1552 1553 1554 1555 1556 1557 1558 3386
 				4977 3399 3431 6508 3419 3418 3417 3428 3420 3430
 				6954 6955 6956 6957 6958 6959 6960 6961 6962 6963 6964
 				1595 4963 4964 4981 4982 4980 4979 3391 4976 4974 3392 4975
@@ -3451,6 +4770,42 @@ country = {
 			
 			own_control_core = {
 				946 947 948 949 950 975
+			}
+		}	
+		
+		HYC = {
+			government = despotic_monarchy
+			primary_culture = amardian 
+			religion = zoroaster  # Change 
+			capital = 4997  
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				4997 4996 7638 7639 3434 3435 3436 3437
+			}
+		}	
+		
+		AMD = {
+			government = despotic_monarchy
+			primary_culture = amardian 
+			religion = zoroaster  # Change 
+			capital = 4985 # Change 
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				4985 4986 4987 
 			}
 		}	
 
@@ -3512,7 +4867,7 @@ country = {
 				562 563 567 568 569 570 571 572 573 574
 				576 577 591 592 575 
 				564 566
-				
+				550 5533 5532 5535 5548 5546
 				505 506
 			}
 		}			
@@ -3571,11 +4926,44 @@ country = {
 				7838 7839 100 7840 88 83 99
 			}
 		}	
+		
+		TAU = {
+			government = tribal_kingdom
+			primary_culture = salluvian
+			religion = druidism
+			centralization=10
+
+			capital = 3551
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+		
+			own_control_core = 	{
+				3551 3563 3548 3564 3559 3535 3534 3560 3562 3555 3558
+			}
+		}
+		
+		INS = {
+			government = tribal_kingdom
+			primary_culture = lepontic
+			religion = druidism
+			centralization=10
+
+			capital = 3571
+		
+			own_control_core = 	{
+				3571 3568 3566 3567 3569 3565 3574 3572 3578 3577 3570 3573 3575 3580 3579
+			}
+		}
 
 		# IBERIA
 		TAT = {
 			government = despotic_monarchy
-			primary_culture = turdetanian # CHANGE    
+			primary_culture = tartessian
 			religion = animism
 			capital = 1341  
 			
@@ -3630,6 +5018,106 @@ country = {
 
 			own_control_core = 	{
 				1344 1345
+			}
+			
+		}
+		
+		CTI = {
+			government = plutocratic_republic
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1348 
+
+			own_control_core = 	{
+				1348 1347 
+			}
+			
+		}
+		
+		SEX = {
+			government = plutocratic_republic
+			primary_culture = carthaginian
+			religion = carthaginian_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1367 
+
+			own_control_core = 	{
+				1367 
+			}
+			
+		}
+		
+		MIK = {
+			government = plutocratic_republic
+			primary_culture = massylian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1366 
+
+			own_control_core = 	{
+				1366 
+			}
+			
+		}
+		
+		ROE = {
+			government = plutocratic_republic
+			primary_culture = massylian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1001 
+
+			own_control_core = 	{
+				1001 
+			}
+			
+		}
+		
+		HLK = {
+			government = plutocratic_republic
+			primary_culture = massylian
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+
+			capital = 1034 
+
+			own_control_core = 	{
+				1034 
 			}
 			
 		}
@@ -3689,9 +5177,35 @@ country = {
 			}
 		}
 		
+		CNI = {
+			government = tribal_kingdom
+			primary_culture = cantabrian
+			religion = animism
+			centralization=10
+
+			capital = 1105
+
+			own_control_core = 	{
+				1105
+			}
+		}
+		
+		COC = {
+			government = tribal_kingdom
+			primary_culture = cantabrian
+			religion = animism
+			centralization=10
+
+			capital = 1107
+
+			own_control_core = 	{
+				1107
+			}
+		}
+		
 		CDB = {
 			government = tribal_federation
-			primary_culture = turdetanian # CHANGE    
+			primary_culture = tartessian
 			religion = animism
 			capital = 1377  
 			
@@ -3734,6 +5248,19 @@ country = {
 			}
 		}
 		
+		SPT = {
+			government = tribal_kingdom
+			primary_culture = asturian
+			religion = druidism
+			centralization=10
+
+			capital = 1127
+
+			own_control_core = 	{
+				1127 1121 1145
+			}
+		}
+		
 		CLC = {
 			government = tribal_kingdom
 			primary_culture = celtician
@@ -3769,6 +5296,17 @@ country = {
 			}
 		}
 		
+		BCS = {
+			government = tribal_federation
+			primary_culture = talaiotic      
+			religion = animism
+			capital = 1467   
+			
+			own_control_core = {
+				1467
+			}
+		}
+		
 		DPO = {
 			government = tribal_federation
 			primary_culture = turdulian #Change
@@ -3781,6 +5319,37 @@ country = {
 			
 			own_control_core = {
 				1403
+			}
+		}
+		
+		OLP = {
+			government = tribal_federation
+			primary_culture = tartessian
+			religion = animism
+			capital = 1319    
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				1319
+			}
+		}
+		
+		TLS = {
+			government = tribal_kingdom
+			primary_culture = lusitanian
+			religion = druidism
+			centralization=10
+
+			capital = 1298 
+
+			own_control_core = 	{
+				1298 1313 1303
 			}
 		}
 		
@@ -3817,7 +5386,7 @@ country = {
 		
 		AC1 = {
 			government = tribal_federation
-			primary_culture = turdetanian     
+			primary_culture = tartessian     
 			religion = animism
 			capital = 1350
 			
@@ -3894,6 +5463,7 @@ country = {
 			own_control_core = 	{
 				1405 1401 1408 1411 1409 1404
 				1440 1441 1444
+				1412 1410
 			}
 		}
 		
@@ -3906,9 +5476,37 @@ country = {
 
 			own_control_core = 	{
 				1257 1258 1026 1450
-				
+				1451
 			}
 		}
+		
+		
+		PAE = {
+			government = tribal_kingdom
+			primary_culture = lusitanian
+			religion = druidism
+			centralization=10
+
+			capital = 1290
+
+			own_control_core = 	{
+				1290 1299 1292 1295 1296
+			}
+		}
+		
+		TPL = {
+			government = tribal_kingdom
+			primary_culture = lusitanian
+			religion = druidism
+			centralization=10
+
+			capital = 1311
+
+			own_control_core = 	{
+				1311 1430 1433 1307 1306
+			}
+		}
+		
 		
 		CNT = {
 			government = tribal_kingdom
@@ -3936,7 +5534,7 @@ country = {
 		
 		MAT = {
 			government = tribal_kingdom
-			primary_culture = turdetanian #CHANGE 
+			primary_culture = tartessian
 			religion = animism
 
 			capital = 1036
@@ -3971,6 +5569,19 @@ country = {
 				2243 2240 2239 2244 2238
  			}
 		}
+		
+		PSC = {
+			government = tribal_kingdom
+			primary_culture = asturian
+			religion = druidism
+			centralization=10
+
+			capital = 1124
+
+			own_control_core = 	{
+				1124 1125 1123
+			}
+		}		
 		
 		AUG = {
 			government = tribal_kingdom
@@ -4059,6 +5670,7 @@ country = {
 
 			own_control_core = 	{
 				1381 1384 1399 1286 1287 1382 1395 1394 1383 1380 1387
+				1443 1447 1448 1449 
 			}
 		}
 		
@@ -4113,6 +5725,71 @@ country = {
 			}
 		}
 		
+		BRC = {
+			government = tribal_kingdom
+			primary_culture = callaecian
+			religion = druidism
+			centralization=10
+
+			capital = 1051
+
+			own_control_core = 	{
+				1051 1289 1153
+			}
+		}
+		
+		NRI = {
+			government = tribal_kingdom
+			primary_culture = callaecian
+			religion = druidism
+			centralization=10
+
+			capital = 1137
+
+			own_control_core = 	{
+				1137 1136 1130
+			}
+		}
+		
+		ARR = {
+			government = tribal_kingdom
+			primary_culture = callaecian
+			religion = druidism
+			centralization=10
+
+			capital = 1132
+
+			own_control_core = 	{
+				1132 1131
+			}
+		}
+		
+		SLI = {
+			government = tribal_kingdom
+			primary_culture = asturian
+			religion = druidism
+			centralization=10
+
+			capital = 1116
+
+			own_control_core = 	{
+				1114 1116 1117
+			}
+		}
+		
+		BAN = {
+			government = tribal_kingdom
+			primary_culture = callaecian
+			religion = druidism
+			centralization=10
+
+			capital = 1156
+
+			own_control_core = 	{
+				1156 1288
+			}
+		}
+		
 		TDI = {
 			government = tribal_kingdom
 			primary_culture = vaccaeian
@@ -4164,6 +5841,18 @@ country = {
 			}
 		}	
 		
+		CNU = {
+			government = tribal_kingdom
+			primary_culture = couneian
+			religion = druidism
+
+			capital = 1337 
+
+			own_control_core = 	{
+				1337 1334 1333 1336 1330 1324
+			}
+		}
+		
 		IPA = {
 			government = tribal_kingdom
 			primary_culture = turdetanian #CHANGE 
@@ -4177,6 +5866,216 @@ country = {
 			}
 		}
 		
+		#Crete
+		
+		KNO = {
+			government = despotic_monarchy
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 358
+			own_control_core = 	{
+				358
+			}
+			
+		}
+		
+		ELT = {
+			government = despotic_monarchy
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 351
+			own_control_core = 	{
+				351
+			}
+			
+		}
+		
+		PYR = {
+			government = aristocratic_republic
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 368
+			own_control_core = 	{
+				368
+			}
+			
+		}
+		
+		LYT = {
+			government = oligarchic_republic
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 359
+			own_control_core = 	{
+				359
+			}
+			
+		}
+		
+		KYD = {
+			government = plutocratic_republic
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 367
+			own_control_core = 	{
+				367
+			}
+			
+		}
+		
+		GRT = {
+			government = democratic_republic
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 361
+			own_control_core = 	{
+				361 372
+			}
+			
+		}
+		
+		IEP = {
+			government = despotic_monarchy
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 355
+			own_control_core = 	{
+				355
+			}
+			
+		}
+		
+		TRA = {
+			government = democratic_republic
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 370
+			own_control_core = 	{
+				370
+			}
+			
+		}
+		
+		PRE = {
+			government = plutocratic_republic
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 344
+			own_control_core = 	{
+				344
+			}
+			
+		}
+		
+		LAP = { # Lappa
+			government = plutocratic_republic
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 8016
+			own_control_core = 	{
+				8016
+			}
+		}
+		
+		ARD = { # Arkades
+			government = oligarchic_republic
+			primary_culture = cretan
+			religion = roman_pantheon
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			capital = 8018
+			own_control_core = 	{
+				8018
+			}
+		}
+		
+		
 		# TRUE ARABIA 
 		GRH = {
 			government = democratic_republic
@@ -4189,6 +6088,18 @@ country = {
 				7199 7200 7201 7204 7203 7198 7197 7196 5408 5409 5410
 			}
 		}		
+		
+		MIN = {
+			government = tribal_kingdom
+			primary_culture = minaean
+			religion = arabian_pantheon
+
+			capital = 4700
+			
+			own_control_core = 	{
+				4668 4700 4672 4674 4673 4690 4701 4702 4640 4699 4639 4671 4670 4669 4638 4636 3480 3479
+			}
+		}
 		
 		DMN = {
 			government = democratic_republic
@@ -4249,6 +6160,42 @@ country = {
 			
 			own_control_core = 	{
 				4676 4677 4712 4657 4658 4685 4679 4678 4710 4711 4675 4703 4704 4705
+			}
+		}
+		
+		SHB = {
+			government = tribal_kingdom
+			primary_culture = sheban
+			religion = arabian_pantheon
+
+			capital = 4682
+			
+			own_control_core = 	{
+				4682 4696 4664 4666 4683 4689 4686 4688 4641 4665 4667
+			}
+		}
+		
+		QTB = {
+			government = tribal_kingdom
+			primary_culture = qatabanian
+			religion = arabian_pantheon
+
+			capital = 4662
+			
+			own_control_core = 	{
+				4662 4693 4698 4694 4687 4692 4695 4661 4697 4663 4681 4656 4660 4659 4654 4655
+			}
+		}
+		
+		HMJ = {
+			government = tribal_kingdom
+			primary_culture = himjar
+			religion = arabian_pantheon
+
+			capital = 4680
+			
+			own_control_core = 	{
+				4680 4643 4644 4645 4646 4648 4649 4684 4647 4651 4652 4650 4642 4691
 			}
 		}
 
@@ -4367,6 +6314,26 @@ country = {
 			
 		}
 		
+        # East Africa 
+		AXM = {
+			government = despotic_monarchy
+			primary_culture = aksumite
+			religion = arabian_pantheon
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			capital = 7506
+			
+			own_control_core = {
+				7506 7509 7515 7540 7508 7593 651
+			}
+		} 
+		
 		#Dacia
 		GTE = {
 			government = tribal_kingdom
@@ -4394,6 +6361,18 @@ country = {
 			}
 		}
 		
+		BUD = {
+			government = tribal_kingdom
+			primary_culture = buridavensi
+			religion = shamanism
+
+			capital = 4273 
+
+			own_control_core = 	{
+				4281 4287 4280 4273 4272 4299 4292 4295 4269 4271
+			}
+		}
+		
 		# Gaul 
 		MAS = {
 			government = plutocratic_republic
@@ -4414,6 +6393,33 @@ country = {
 				2325 3517
 			}
 			
+		}
+
+		BIG = {
+			government = tribal_kingdom
+			primary_culture = aquitani
+			religion = druidism
+			centralization=10
+
+			capital = 2252
+
+			own_control_core = 	{
+				2252 2251 2277
+			}
+		}
+
+		
+		NTB = {
+			government = tribal_kingdom
+			primary_culture = santonian
+			religion = druidism
+			centralization=10
+
+			capital = 2270
+
+			own_control_core = 	{
+				2270 2269 2268 2280 2294 2293 2326 2335 2292
+			}
 		}		
 		# Alpine
 		NRC = {
@@ -4426,10 +6432,63 @@ country = {
 
 			own_control_core = 	{
 				3643 3670 3644 3764 3762 3645
-				3669 3668 3667 
+				3669 3668 3667 3664
+			}
+		}
+		
+		#Illyria
+		CVI = {
+			government = tribal_kingdom
+			primary_culture = taulantian
+			religion = roman_pantheon
+
+			capital = 4092
+
+			own_control_core = 	{
+				4092 1144 
+			}
+		}
+		
+		GLB = {
+			government = tribal_kingdom
+			primary_culture = taulantian
+			religion = roman_pantheon
+
+			capital = 4094
+
+			own_control_core = 	{
+				4094 4095 4093 4099
 			}
 		}
 		#Crimea
+		TR1 = {
+			government = tribal_kingdom
+			primary_culture = scythian
+			religion = indo_iranian_religion
+
+			capital = 4546
+
+			own_control_core = 	{
+				4546 4545 4548 4547 4542 4535
+			}
+		}		
 		
+		BYA = {
+			government = oligarchic_republic
+			primary_culture = bosporan 
+			religion = roman_pantheon
+			capital = 4529
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				4529 
+			}
+		}
 }
 
