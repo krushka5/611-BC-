@@ -1,0 +1,65 @@
+namespace = news_events
+
+#The Decline Of The Luwians
+news_events.1 = {
+	type = country_event
+	title = "news_events.1.t"
+	desc = "news_events.1.desc"
+	picture = revolt
+	
+	trigger = {				
+		is_ai = no
+		NOT = {
+			OR = {
+				exists = c:TBN
+				exists = c:TWW
+				exists = c:GGM
+				exists = c:MID
+				exists = c:KTE
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = news_events.1.a #An era ended
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+
+}
+
+
+#Collapse Of Assyria
+news_events.2 = {
+	type = country_event
+	title = "news_events.2.t"
+	desc = "news_events.2.desc"
+	picture = revolt
+	
+	trigger = {				
+		is_ai = no
+		NOT = {
+			exists = c:ASS
+			OR = {
+				tag = TAT
+				tag = BAB
+				tag = MED
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = news_events.2.a #Shocking! 
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+
+}

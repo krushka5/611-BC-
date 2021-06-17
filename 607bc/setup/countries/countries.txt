@@ -26,6 +26,12 @@ CPA = "setup/countries/italia/capua.txt"
 MTU = "setup/countries/italia/mantua.txt"
 VRX = "setup/countries/italia/vrixia.txt"
 CHN = "setup/countries/italia/charumnia.txt"
+PGI = "setup/countries/italia/poggio.txt"
+VLA = "setup/countries/italia/velathria.txt"
+FSL = "setup/countries/italia/fiesolia.txt"
+SNA = "setup/countries/italia/saina.txt"
+LNA = "setup/countries/italia/luna.txt"
+LUC = "setup/countries/italia/luca.txt"
 
 #New:
 ATH = "setup/countries/greece/athens.txt"
@@ -158,6 +164,11 @@ ODM = "setup/countries/greece/odomantia.txt"
 KSI = "setup/countries/greece/krestonia.txt"
 MGD = "setup/countries/greece/mygdonia.txt"
 BSL = "setup/countries/greece/bisaltia.txt"
+CYN = "setup/countries/greece/cyrene.txt"
+ALP = "setup/countries/greece/apollonia cyrenaica.txt"
+TAC = "setup/countries/greece/taucheira.txt"
+CMA = "setup/countries/greece/cumae.txt"
+THS = "setup/countries/greece/thasos.txt"
 
 # Crimea and Abkhazia
 
@@ -258,6 +269,8 @@ BAC = "setup/countries/bactria/bactria.txt"
 PAR = "setup/countries/caucasiamesopotamia/parthia.txt"
 #NEWER 
 AMD = "setup/countries/caucasiamesopotamia/amardi.txt"
+CDU = "setup/countries/caucasiamesopotamia/cadusia.txt"
+ISZ = "setup/countries/caucasiamesopotamia/iskuza.txt"
 
 # Arabia/Persia
 OSR = "setup/countries/syria/osroene.txt"
@@ -344,6 +357,9 @@ PNI = "setup/countries/italia/parmnia.txt"
 FSN = "setup/countries/italia/felsna.txt"
 MTA = "setup/countries/italia/mutina.txt"
 CMN = "setup/countries/italia/cammuni.txt"
+NVL = "setup/countries/italia/nuvla.txt"
+VST = "setup/countries/italia/vestini.txt"
+HER = "setup/countries/italia/hernici.txt"
 
 #Britannic
 
@@ -499,6 +515,8 @@ BCS = "setup/countries/iberia/bocchoria.txt"
 ROE = "setup/countries/iberia/rode.txt"
 HLK = "setup/countries/iberia/helike.txt"
 OLP = "setup/countries/iberia/oestrimnia.txt"
+TUC = "setup/countries/iberia/tuci.txt"
+IUL = "setup/countries/iberia/iulipa.txt"
  
 #African
 
@@ -532,6 +550,15 @@ IOL = "setup/countries/africa/iol.txt"
 KUA = "setup/countries/africa/kerkouane.txt"
 DOD = "setup/countries/africa/dodekaschoinos.txt"
 DAL = "setup/countries/africa/elaia.txt"
+# NORTH AFRICA NEW
+UBN = "setup/countries/africa/ubon.txt"
+TNA = "setup/countries/africa/thaena.txt"
+MNX = "setup/countries/africa/meninx.txt"
+GRG = "setup/countries/africa/gergis.txt"
+GTI = "setup/countries/africa/gigthia.txt"
+NSM = "setup/countries/africa/nasamone.txt"
+BCA = "setup/countries/africa/barchaeia.txt"
+GGA = "setup/countries/africa/giligamae.txt"
 
 #Gaul
 
@@ -827,6 +854,7 @@ SIN = "setup/countries/italia/selinous.txt"
 ELY = "setup/countries/italia/elymoi.txt"
 SKO = "setup/countries/italia/sikanoi.txt"
 SKL = "setup/countries/italia/sikeloi.txt"
+SLM = "setup/countries/italia/soluntum.txt"
 
 # Extra Boeotia
 AMP = "setup/countries/greece/amphissa.txt"
@@ -851,6 +879,16 @@ EPM = "setup/countries/illyria_dacia/epidaurum.txt"
 ISA = "setup/countries/illyria_dacia/issa.txt"
 KOK = "setup/countries/illyria_dacia/korkyramelaina.txt"
 APO = "setup/countries/illyria_dacia/apollonia.txt"
+
+# Georgia - Caucausus 
+SPR = "setup/countries/caucasiamesopotamia/saspieri.txt"
+ZYD = "setup/countries/caucasiamesopotamia/zydria.txt"
+LZI = "setup/countries/caucasiamesopotamia/lazi.txt"
+SUA = "setup/countries/caucasiamesopotamia/suania.txt"
+TAO = "setup/countries/caucasiamesopotamia/taochi.txt"
+ERU = "setup/countries/caucasiamesopotamia/eruandia.txt"
+BZY = "setup/countries/caucasiamesopotamia/byzerea.txt"
+ZAN = "setup/countries/caucasiamesopotamia/zanuria.txt"
 
 ### Marius Anatolia
 SLG = "setup/countries/anatolia/selgia.txt"
