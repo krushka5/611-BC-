@@ -25,6 +25,7 @@
  celto_pannonian_group:0 "Pannonian"
  belgae_group:0 "Belgae"
  pracyan:0 "Pracyan"
+ tartessos:0 "Tartessos"
  #Aryan
  vidharban:0 "Vidharban"
  saurashtran:0 "Saurashtran"
@@ -339,6 +340,7 @@
  paeonian:0 "Paeonian"
  # NEW MOD 
  tartessian:0 "Tartessian"
+ oestrimnian:0 "Oestrimnian"
  #Naming
  aryan_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aryan_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
@@ -402,3 +404,6 @@
  belgae_group_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  pracyan_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  pracyan_femalename:0 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ # NEW NAMING
+ tartessos_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ tartessos_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

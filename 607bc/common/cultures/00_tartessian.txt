@@ -1,5 +1,5 @@
-﻿iberia = {
-	color = hsv { 0.07 1.0 1.0 }
+﻿tartessos = {
+	color = rgb {29 137 176 }
 	
 	primary = archers
 	second = chariots
@@ -41,20 +41,15 @@
 		Urceticus.Urcetica.Urceticidii.Urceticidian
 	}
 	culture = {
-		oretanian = {}
-		contestanian = {}
-		bastetanian = {}
-		ilercavonian = {}
-		edetanian = {}
-		lacetanian = {}
-		indiketian = {}
-		ausetanian = {} 
-		couneian = {}
+		turdetanian = {}
+		tartessian = {} 
+		turdulian = {}
+		oestrimnian = {}
 	}
 	
 	barbarian_names = { AUSETANI BASTETANI LAIETANI CASTELLANI CERRETANI HELISYCES SORDONES PITYUSSAI }
 	
-	graphical_culture = iberian_gfx
+	graphical_culture = carthaginian_gfx # CHANGE 
 	ethnicities = {
 		10 = iberian
 	}
