@@ -1,0 +1,25 @@
+﻿"CYN"={
+	country="CYN"
+	111={
+		first_name="Battus"
+		family_name = c:CYN.fam:Aristaeus
+		birth_date=426.2.14
+		culture="cyrenaican"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=6
+		add_charisma=7
+		add_finesse=5
+		add_zeal=5
+		no_traits=yes
+		add_trait="brave"
+		add_trait="ambitious"
+		add_trait="founder"
+		add_gold=120
+		add_popularity=95
+		c:CYN={
+			set_as_ruler=char:111
+		}
+		dna="/cOjxMF5wXn1vfW9AosCiwJ1AnUCZgJmApACkAFQAVACiQKJAnoCegKKAooCfQJ9A6UDpQJvAm8CfQJ9AVsBWwKQApACfQJ9AosCiwFdAV0CgwKDAnICcgKAAoABbwFvAosCiwS1BLUCgAKAAnMCcwJ4AngCiwKLAmYCZgJrAmsCagJqAo0CjQKHAocCiwKLAooCigKOAo4CmQKZApYClgKZApkChwKHAnQCdAKTApMClQKVApICkgKDAoMCeQJ5AogCiAKQApACfwJ/AnICcgFZAVkCdwJ3AnkCeQJ9An0CgAKAAWQBZAL8AvwAdQB1AAMAAwEVARUAFgAWAS0BLQACAAIAvgC+ACsAKwCyALIDJQMlALAAsAB/AH8ADAAMABQAFACfAJ8AJQAlAJEAkQBCAEIAWQBZAH8AfwB/AH8AKwArAUUBRQCBAIEBGAEYATYBNgM7AzsBWQFZAxADEABfAF8DPAM8AUQBRABhAGECjQKNAH8AfwGxAbEFvAXHAJ4AdAUABbgCmwL9AksCSwAAAAAAAAAAAAAAAA=="
+	}
+}
