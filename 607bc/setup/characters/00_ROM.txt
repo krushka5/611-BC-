@@ -1,1 +1,22 @@
-﻿
+﻿"ROM"={
+	country="ROM"
+	2={
+		first_name="Lucius"
+		family = "Tarquinius"
+		birth_date=109.1.4
+		culture="etruscan"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=3
+		no_traits=yes
+		add_gold=251
+		add_popularity=95
+		c:ROM={
+			set_as_ruler=char:2
+		}
+		dna="A/4D/pV+lX748PjwAmYCZgKYApgDnQOdAoUChQKBAoECcAJwAoICggFOAU4CaAJoAnECcQKZApkCagJqAo8CjwJ0AnQBTwFPA6gDqAKIAogChgKGAowCjAOZA5kCjwKPAngCeAKMAowCjgKOAmoCagKVApUCfQJ9AWABYAOxA7EBYQFhApYClgKBAoEClwKXAnICcgOeA54CiAKIAU4BTgKFAoUCagJqAnYCdgKVApUCbgJuA6YDpgFaAVoCdwJ3AoUChQJzAnMCcwJzAoICggJ+An4CdwJ3AoECgQJsAmwCewJ7An8CfwIoAigAlQCVAKkAqQAjACMArwCvAQ8BDwBmAGYAiACIABsAGwLxAvECeQJ5AN0A3QB/AH8CuQK5AEQARAAiACIAdgB2AKEAoQEKAQoAVgBWAPoA+gB/AH8BAgECAqwCrAECAQIAxQDFAGwAbACkAKQC2gLaBI0EjQDcANwBTwFPAywDLACTAJMI3wjfAH8AfwHZAdkFcgFtADEAMQXLCcMBfwHvABQAlQAAAAAAAAAAAAAAAA=="
+	}
+}

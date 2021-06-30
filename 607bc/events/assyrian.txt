@@ -1,0 +1,38 @@
+namespace = assyrian_events
+
+# FLAVOUR 
+#Reinforcements From Egypt 
+assyrian_events.1 = {
+	type = country_event
+	title = "assyrian_events.1.t"
+	desc = "assyrian_events.1.desc"	
+	picture = revolt
+		
+	trigger = {				
+		tag = ASS 
+	}
+	
+	fire_only_once = yes
+	
+	# Rally around $RULER$ 
+	option = { 
+		name = assyrian_events.1.a # 
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = 2
+		add_manpower = 4
+		if = {
+			limit = {
+				NOT = {
+					has_law = work_for_the_best
+				}
+			} 
+			change_law = work_for_the_best  # REWORK 
+		}
+		current_ruler = {
+			add_popularity = 5
+		}
+	}
+
+}

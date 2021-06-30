@@ -255,6 +255,7 @@ GGM = "setup/countries/anatolia/gurgum.txt"
 THY = "setup/countries/anatolia/thynia.txt"
 MNE = "setup/countries/anatolia/matiania.txt"
 HYC = "setup/countries/anatolia/hyrcania.txt"
+LYI = "setup/countries/anatolia/lycaonia.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
@@ -271,6 +272,16 @@ PAR = "setup/countries/caucasiamesopotamia/parthia.txt"
 AMD = "setup/countries/caucasiamesopotamia/amardi.txt"
 CDU = "setup/countries/caucasiamesopotamia/cadusia.txt"
 ISZ = "setup/countries/caucasiamesopotamia/iskuza.txt"
+HDL = "setup/countries/caucasiamesopotamia/hidalu.txt"
+DER = "setup/countries/caucasiamesopotamia/der.txt"
+ASH = "setup/countries/caucasiamesopotamia/anshan.txt"
+GED = "setup/countries/caucasiamesopotamia/gedrosia.txt"
+MGI = "setup/countries/caucasiamesopotamia/margiana.txt"
+DAH = "setup/countries/caucasiamesopotamia/dahae.txt"
+ARI = "setup/countries/caucasiamesopotamia/aria.txt"
+DRG = "setup/countries/caucasiamesopotamia/drangiana.txt"
+CAM = "setup/countries/caucasiamesopotamia/carmania.txt"
+UTI = "setup/countries/caucasiamesopotamia/utia.txt"
 
 # Arabia/Persia
 OSR = "setup/countries/syria/osroene.txt"
@@ -294,6 +305,7 @@ ASS = "setup/countries/syria/assyria.txt"
 AKA = "setup/countries/syria/akka.txt"
 EDO = "setup/countries/syria/edom.txt"
 PLS = "setup/countries/syria/philistine.txt"
+ATE = "setup/countries/syria/athar.txt"
 ####SULLA####
 
 # Italic
@@ -360,6 +372,8 @@ CMN = "setup/countries/italia/cammuni.txt"
 NVL = "setup/countries/italia/nuvla.txt"
 VST = "setup/countries/italia/vestini.txt"
 HER = "setup/countries/italia/hernici.txt"
+THR = "setup/countries/italia/tharros.txt"
+SPN = "setup/countries/italia/spina.txt"
 
 #Britannic
 
@@ -559,6 +573,8 @@ GTI = "setup/countries/africa/gigthia.txt"
 NSM = "setup/countries/africa/nasamone.txt"
 BCA = "setup/countries/africa/barchaeia.txt"
 GGA = "setup/countries/africa/giligamae.txt"
+TNG = "setup/countries/africa/tingis.txt"
+GYZ = "setup/countries/africa/gyzantes.txt"
 
 #Gaul
 
@@ -716,6 +732,7 @@ DMN = "setup/countries/arabia/dilmun.txt"
 MDA = "setup/countries/arabia/midian.txt"
 ZAM = "setup/countries/arabia/zamua.txt"
 ELP = "setup/countries/arabia/ellipi.txt"
+SGA = "setup/countries/arabia/sagartia.txt"
 
 #India/Tibet
 MRY = "setup/countries/india/mauryas.txt"

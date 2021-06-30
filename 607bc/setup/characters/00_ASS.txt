@@ -1,0 +1,22 @@
+﻿"ASS"={
+	country="ASS"
+	0={
+		first_name="Ashuruballit"
+		family = "Sargonid"
+		birth_date=112.4.7
+		culture="assyrian"
+		religion="mesopotamian_religion"
+		no_stats=yes
+		add_martial=6
+		add_charisma=4
+		add_finesse=2
+		add_zeal=2
+		no_traits=yes
+		add_gold=25
+		add_popularity=40
+		c:ASS={
+			set_as_ruler=char:0
+		}
+		dna="Hvwe/JKkkqTM/cz9AVABUAJ/An8BWwFbAmoCagKUApQCgQKBAocChwJwAnACdwJ3Am0CbQJxAnEE1gTWAocChwFUAVQChgKGAncCdwKOAo4CcgJyAoICggJ/An8CcAJwAokCiQKKAooCcwJzAVMBUwKOAo4CcwJzAm0CbQJtAm0CZwJnAnUCdQJ5AnkChgKGAnACcAKZApkCjQKNAn8CfwKSApICfwJ/ACAAIAOiA6ICZwJnAnECcQOfA58CgAKAAowCjAKWApYCmAKYAnUCdQKSApIClAKUA4wDjAKVApUCZgJmAU0BTQKpAqkA3ADcACsAKwCCAIIA4gDiANkA2QC0ALQAhQCFAKEAoQFoAWgCSgJKAJ4AngB/AH8A9QD1AIEAgQDdAN0AKwArAGQAZAFtAW0AhgCGAIEAgQB/AH8AIAAgAQwBDAB2AHYBJgEmACsAKwLKAsoA/QD9BK4ErgDEAMQChAKEAxQDFANJA0kKUApQAH8AfwWPBY8GYwZfAUUBRQPoA+kEhwRPAwgB0AAAAAAAAAAAAAAAAA=="
+	}
+}

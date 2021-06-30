@@ -1,7 +1,7 @@
 ﻿l_english:
  #GROUPS
  hellenic:1 "Hellenistic"
- latin:1 "Italic"
+ latin:1 "Latin"
  baltic:1 "Veneti"
  aryan:1 "Aryan"
  north_african:2 "Egyptian"
@@ -26,6 +26,7 @@
  belgae_group:0 "Belgae"
  pracyan:0 "Pracyan"
  tartessos:0 "Tartessos"
+ italic_group:0 "Italic"
  #Aryan
  vidharban:0 "Vidharban"
  saurashtran:0 "Saurashtran"
@@ -341,6 +342,10 @@
  # NEW MOD 
  tartessian:0 "Tartessian"
  oestrimnian:0 "Oestrimnian"
+ latin_culture:0 "Latin"
+ romulan:0 "Romulan"
+ philistinian:0 "Philistinian"
+
  #Naming
  aryan_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aryan_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
@@ -407,3 +412,7 @@
  # NEW NAMING
  tartessos_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  tartessos_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ italic_group_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ italic_group_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ hebraic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ hebraic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
