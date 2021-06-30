@@ -1,8 +1,8 @@
 ﻿roman_heritage = {
 	modifier = {
 		#good
-		levy_size_multiplier = 0.025
-		integrate_speed = 0.1
+		global_pop_assimilation_speed_modifier = 0.2
+		local_citizen_happyness = 0.1	
 		
 		#bad
 		naval_morale_modifier = -0.05
@@ -908,5 +908,81 @@ philistine_heritage = { # NEEDS LOCAL
 	
 	trigger = {
 		tag = PLS
+	}
+}
+
+cilicia_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		levy_size_multiplier = 0.025
+		global_population_growth = 0.03
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		tag = CLS
+	}
+}
+
+neo_hittite_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		religious_tech_investment = 0.1
+		global_population_growth = 0.05
+		
+		#bad
+		recruit_mercenary_cost_modifier = 0.05
+
+	}
+	
+	trigger = {
+		tag = TBN # REWORK AFTER CULTURE ADDED 
+	}
+}
+
+samaria_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		civil_war_threshold = 0.1	
+		religious_tech_investment = 0.1
+		
+		#bad
+		global_pop_conversion_speed_modifier = -0.25
+	}
+	
+	trigger = {
+		tag = SMA
+	}
+}
+
+cynuria_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		global_export_commerce_modifier = 0.1
+		price_state_investment_oratory_cost_modifier = -0.1
+		
+		#bad
+		navy_maintenance_cost = 0.1
+	}
+	
+	trigger = {
+		tag = KYI
+	}
+}
+
+sagartian_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		light_cavalry_offensive = 0.1
+		global_start_experience = 0.1	
+		
+		#bad
+		retreat_delay = 0.1	
+	}
+	
+	trigger = {
+		tag = SGA
 	}
 }

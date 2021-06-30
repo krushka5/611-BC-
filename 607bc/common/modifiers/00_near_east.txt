@@ -1,0 +1,7 @@
+
+assyria_nineveh_mourning = {
+    omen_power = -0.1	
+	land_morale_modifier = -0.15	
+	discipline = -0.05	
+	levy_size_multiplier = -0.20
+}

@@ -1,0 +1,9 @@
+on_game_initialized = {
+	events = {
+		startup_events.1
+		startup_events.2 
+		startup_events.3 # Sacking Of Nineveh
+		startup_events.4 # Sacking Of Nineveh - Jewish Version
+		startup_events.5 #Arbelan Prize
+	}
+}
