@@ -1,0 +1,279 @@
+namespace = startup_events
+
+# MECHANIC STARTUPS 
+
+#Cilicia War 
+startup_events.1 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		c:CLS = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = 1875
+				target = TBN
+			}			
+		}
+	}
+	
+	trigger = {				
+		tag = CLS 
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = startup_events.1.a #An era ended
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+
+}
+
+#Assyria War 
+startup_events.2 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		c:ASS = {
+			declare_war_with_wargoal = {
+				war_goal = diadochi_wargoal #REWORK
+				province = 810
+				target = BAB
+			}			
+		}
+		#c:MED = {
+		#	declare_war_with_wargoal = {
+		#		war_goal = diadochi_wargoal #REWORK
+		#		province = 810
+		#		target = ASS
+		#	}			
+		#}
+	}
+	
+	trigger = {				
+		tag = BAB 
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = startup_events.2.a #An era ended
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+
+}
+# FLAVOUR 
+#Sacking Of Nineveh
+startup_events.3 = {
+	type = country_event
+	
+	immediate = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = assyria_nineveh_mourning
+				duration = 2895
+			}
+			p:862 = {
+				add_fort_fire_effect = yes
+			}
+			add_manpower = -12
+			trigger_event = {
+				id = assyrian_events.1 
+				months = 3
+			}
+		}
+	}
+	
+	trigger = {				
+		tag = ASS 
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = startup_events.3.a # A calamity
+		ai_chance = {
+			factor = 100
+		}
+		show_as_tooltip	= {
+			add_country_modifier = {
+				name = assyria_nineveh_mourning
+				duration = 2895
+			}
+		}
+		add_stability = -20
+		#show_as_tooltip	= { # EXPAND
+		#	p:862 = {
+		#		every_pops_in_province = {
+		#			limit = {
+		#				pop_type = nobles
+		#			}
+		#			
+		#			kill_pop
+		#		}
+		#	}
+		#}
+	}
+
+}
+
+#Sacking Of Nineveh - Jewish version 
+startup_events.4 = {
+	type = country_event
+	title = "startup_events.4.t"
+	desc = "startup_events.4.desc"	
+	picture = revolt
+	
+	trigger = {		
+		OR = {
+			tag = SMA  
+			tag = AMN
+			tag = MOB
+			tag = JUD
+		}
+	}
+	
+	option = {
+		name = startup_events.4.a # Woe to the bloody city, the city of lies!
+		add_stability = 3
+		ai_chance = {
+			factor = 100
+		}
+		#if = {
+		#	limit = {
+		#	
+		#	}
+		#}	
+	}
+
+}
+
+#Arbelan Prize
+startup_events.5 = {
+	type = country_event
+	title = "startup_events.5.t"
+	desc = "startup_events.5.desc"	
+	picture = revolt
+	
+	trigger = {		
+		tag = SGA 
+	}
+	
+	fire_only_once = yes	
+	
+	option = {
+		name = startup_events.5.a # Arbelan will be the seat of Sagartia 
+		add_treasury = 200
+		p:6597 = {
+			random_pops_in_province = {
+					move_pop = 880 
+			}
+		}
+		p:6597 = {
+			random_pops_in_province = {
+					move_pop = 880 
+			}
+		}
+		p:6605 = {
+			random_pops_in_province = {
+					move_pop = 880 
+			}
+		}
+		p:3470 = {
+			random_pops_in_province = {
+					move_pop = 880 
+			}
+		}		
+		ai_chance = {
+			factor = 50 
+		}
+	}
+	
+	option = {
+		name = startup_events.5.b # Shift the wealth back to the homeland 
+		if = {
+			limit = {
+				owns = 6605 
+			}
+			set_capital = 6605
+		}
+		p:880 = {
+			random_pops_in_province = {
+				move_pop = 6605
+				if = {
+					limit = {
+						NOT = {
+							pop_type = slaves
+						}
+					}
+					set_pop_type = slaves 
+				}
+			}
+		}
+		p:880 = {
+			random_pops_in_province = {
+				move_pop = 6605 
+				if = {
+					limit = {
+						NOT = {
+							pop_type = slaves
+						}
+					}
+					set_pop_type = slaves 
+				}
+			}
+		}
+		p:880 = {
+			random_pops_in_province = {
+				move_pop = 6605 
+				if = {
+					limit = {
+						NOT = {
+							pop_type = slaves
+						}
+					}
+					set_pop_type = slaves 
+				}
+			}
+		}
+		p:880 = {
+			random_pops_in_province = {
+				move_pop = 6605 
+				if = {
+					limit = {
+						NOT = {
+							pop_type = slaves
+						}
+					}
+					set_pop_type = slaves 
+				}
+			}
+		}
+		p:984 = {
+			random_pops_in_province = {
+				move_pop = 3470 
+				if = {
+					limit = {
+						NOT = {
+							pop_type = slaves
+						}
+					}
+					set_pop_type = slaves 
+				}
+			}
+		}
+		add_treasury = 200
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+}
