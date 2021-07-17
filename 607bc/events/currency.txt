@@ -1,0 +1,80 @@
+namespace = currency_events
+
+#Invention Of Currency 
+currency_events.1 = {
+	type = country_event
+	title = "currency_events.1.t"
+	desc = "currency_events.1.desc"
+	picture = revolt
+	
+	trigger = {	
+
+	}
+	
+	immediate = {
+
+	} 
+	
+	option = {
+		name = currency_events.1.a #An era ended
+		add_treasury = 350
+		every_neighbour_country = { 
+			limit = { 
+				THIS = {
+					any_owned_province = {
+						pop_type = nobles
+					}
+				}
+				
+			} 
+			trigger_event = { 
+				id = currency_events.3
+				months = 3
+			}
+		}	
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+}
+
+currency_events.2 = {
+	type = country_event
+	title = "currency_events.2.t"
+	desc = "currency_events.2.desc"
+	picture = revolt
+	
+	trigger = {	
+
+	}
+	
+	option = {
+		name = currency_events.2.a #An era ended
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+
+}
+
+currency_events.3 = {
+	type = country_event
+	title = "currency_events.3.t"
+	desc = "currency_events.3.desc"
+	picture = revolt
+	
+	trigger = {	
+
+	}
+	
+	option = {
+		name = currency_events.3.a #An era ended
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+
+}

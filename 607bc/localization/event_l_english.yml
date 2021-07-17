@@ -2927,3 +2927,8 @@
  startup_events.4.t:0 "Sacking Of Nineveh"
  startup_events.4.desc:0 "The shields of his mighty men are made red, the valiant men are in scarlet. The chariots come with flaming torches and the spears are brandished. The chariots rage in the streets, they jostle one another in the broad roads; they seem like torches, they run like lightning. \n\nHe remembers his nobles; they stumble in their walk; they make haste to her walls and the defence is prepared. The gates of the rivers are opened and the palace is dissolved. \n\nBehold, I am against you, says the Lord of hosts, I will burn your chariots in smoke, and the sword shall devour your young lions; I will cut off your prey from the earth, and the voice of your messengers shall be heard no more.\n– Nahun"
  startup_events.4.a:0 "Woe to the bloody city..."
+ news_events.3.t:0 "Invention Of Coinage" 
+ news_events.3.desc:0 "Golden coins from [SCOPE.sC('currency_inventor_c').GetName] have begun circulating among the possessions of its wealthy elites. These coins appear to be ceremonial in nature, being of considerable vanity and value. These coins may have a potential use as a medium of exchange, opening up new avenues for [SCOPE.sC('currency_inventor_c').GetAdjective] tax collectors and merchants to ply their trades."
+ news_events.3.a:0 "What a waste of gold!" 
+ news_events.3.b:0 "Interesting"
+ news_events.3.c:0 "We should replicate this.."

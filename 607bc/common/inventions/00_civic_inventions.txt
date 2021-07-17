@@ -1,0 +1,109 @@
+﻿civic_1 = {
+    technology = civic_tech
+    color = hsv { 0.6 0.8 0.7 }
+    
+    # Level 0
+    commerce_inv_1 = { 
+        modifier = { global_import_commerce_modifier = 0.05 }
+    }
+
+    # Level 1
+	capital_trade_inv_2 = {
+        modifier = { global_capital_trade_routes = 1 }
+        requires = { commerce_inv_1 }
+    }
+	
+    global_tax_one_inv_1 = { 
+        modifier = { global_tax_modifier = 0.025 }
+        requires = { commerce_inv_1 }
+    }
+
+    # Level 2
+    currency_inv_1 = { 
+        modifier = { 
+			global_tax_modifier = 0.05 
+			global_citizen_output = 0.0025	
+			global_nobles_output = 0.01	
+		}
+		potential  = {
+			OR = {
+				any_owned_province = {
+					trade_goods = precious_metals 
+				}
+				current_date > 200
+			}
+			NOT = {
+				invention = enforced_barter_inv_1
+			}
+		}
+        on_activate = {
+			if = {
+				limit = {
+					NOT = {
+						has_global_variable = coinage_discovery
+					}
+				}
+				set_global_variable = { 
+					name = coinage_discovery
+					days = -1
+				}
+				trigger_event = { 
+					id = currency_events.1 
+				} 
+				save_scope_as = currency_inventor_c
+				every_country = {
+					limit = {
+						
+					}
+					trigger_event = {
+						id = news_events.3
+						# Day month or year tick? 
+					}
+				}
+			}
+			else = {
+				trigger_event = { 
+					id = currency_events.2 
+				} 			
+			}
+		}
+		keystone = yes
+        requires = { global_tax_one_inv_1 }
+    }
+	
+    enforced_barter_inv_1 = { 
+        modifier = { 
+			global_tribesmen_output = 0.005	
+			global_tribesmen_happyness = 0.01
+			
+		}
+		potential  = {
+			NOT = {
+				invention = currency_inv_1
+			}
+		}
+        on_activate = {
+			
+		}
+		keystone = yes
+        requires = { global_tax_one_inv_1 }
+    }
+	
+    # Level 3
+    monetary_standards_inv_1 = { 
+        modifier = { 
+			global_commerce_modifier = 0.05	
+			global_tax_modifier = 0.02
+			global_freemen_output = 0.005
+		}
+        requires = { currency_inv_1 }
+    }
+
+    prop_tax_reale_inv_1 = { 
+        modifier = { 
+			global_tax_modifier = 0.0025
+			global_nobles_happyness = -0.0025
+		}
+        requires = { currency_inv_1 }
+    }
+}

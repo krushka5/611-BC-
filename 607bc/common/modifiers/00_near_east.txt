@@ -5,3 +5,8 @@ assyria_nineveh_mourning = {
 	discipline = -0.05	
 	levy_size_multiplier = -0.20
 }
+
+ruined_zigur_susa = {
+	happiness_for_same_culture_modifier = -0.1	
+	local_building_slot = -1	
+}
