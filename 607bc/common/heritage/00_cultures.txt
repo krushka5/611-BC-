@@ -158,3 +158,108 @@ bithynian_heritage = {
 		primary_culture = bithynian
 	}
 }
+
+etruscan_culture_heritage = {
+	modifier = {
+		#good
+		happiness_for_same_culture_modifier = 0.1
+		naval_morale = 0.1	
+
+		#bad
+		stability_cost_modifier = 0.1	
+	}
+	trigger = {
+		primary_culture = etruscan 
+	}
+}
+
+elamite_culture_heritage = {
+	modifier = {
+		#good
+		global_commerce_modifier = 0.05
+		monthly_legitimacy = 0.1		
+
+		#bad
+		global_ship_recruit_speed = -0.1	
+	}
+	trigger = {
+		primary_culture = elamite 
+	}
+}
+
+latin_culture_heritage = {
+	modifier = {
+		#good
+		global_citizen_happyness = 0.1	
+		experience_decay = -0.05	
+
+		#bad
+		global_ship_recruit_speed = -0.1	
+	}
+	trigger = {
+		primary_culture = latin_culture 
+	}
+}
+
+talaiotic_culture_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.1		
+		archers_offensive = 0.05 
+
+		#bad
+		port_building_cost = 0.35
+	}
+	trigger = {
+		primary_culture = talaiotic 
+	}
+}
+
+punic_culture_heritage = {
+	modifier = {
+		#good
+		global_ship_start_experience = 0.1	
+		global_commerce_modifier = 0.05
+
+		#bad
+		stability_cost_modifier = 0.1	
+	}
+	trigger = {
+		primary_culture = carthaginian
+	}
+}
+
+isaurian_culture_heritage = {
+	modifier = {
+		#good
+		global_tribesmen_happyness = 0.04
+		light_infantry_defensive = 0.1
+
+		#bad
+		ship_cost = 0.05
+
+	}
+	trigger = {
+		primary_culture = isaurian  
+	}
+}
+
+
+scythian_hoard_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		horse_archers_offensive = 0.1
+		enslavement_efficiency = 0.05
+
+		#bad
+		happiness_for_wrong_culture_modifier = -0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = SCY
+			tag = CMM
+			tag = ISZ
+		}
+	}
+}

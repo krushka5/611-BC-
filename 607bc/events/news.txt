@@ -7,16 +7,14 @@ news_events.1 = {
 	desc = "news_events.1.desc"
 	picture = revolt
 	
-	trigger = {				
+	trigger = {	
 		is_ai = no
-		NOT = {
-			OR = {
-				exists = c:TBN
-				exists = c:TWW
-				exists = c:GGM
-				exists = c:MID
-				exists = c:KTE
-			}
+		NOR = {
+			exists = c:TBN
+			exists = c:TWW
+			exists = c:GGM
+			exists = c:MID
+			exists = c:KTE
 		}
 	}
 	
@@ -62,4 +60,56 @@ news_events.2 = {
 
 	}
 
+}
+
+#Invention of Coinage 
+news_events.3 = {
+	type = country_event
+	title = "news_events.3.t"
+	desc = "news_events.3.desc"
+	picture = revolt
+	
+	trigger = {				
+
+	}
+	
+	option = {
+		name = news_events.3.a 
+		trigger = {
+			NOT = {
+				invention = currency_inv_1 
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+	
+	option = {
+		name = news_events.3.b 
+		trigger = {
+			invention = currency_inv_1 # IN CASE OF MISFIRE 
+		}
+		ai_chance = {
+			factor = 100
+		}
+
+	}
+	
+	#option = {
+	#	name = news_events.3.c 
+	#	trigger = {
+	#		NOT = {
+	#			invention = currency_inv_1 
+	#		}
+	#		#current_ruler = { #Trait Maybe??
+	#		#	has_trait = wounded
+	#		#}
+	#	}
+	#	ai_chance = {
+	#		factor = 100
+	#	}
+	#
+	#}
 }

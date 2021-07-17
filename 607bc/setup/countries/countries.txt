@@ -169,6 +169,7 @@ ALP = "setup/countries/greece/apollonia cyrenaica.txt"
 TAC = "setup/countries/greece/taucheira.txt"
 CMA = "setup/countries/greece/cumae.txt"
 THS = "setup/countries/greece/thasos.txt"
+KYM = "setup/countries/greece/kyme.txt"
 
 # Crimea and Abkhazia
 
@@ -811,6 +812,9 @@ ZNT = "setup/countries/bactria/zanthi.txt"
 PSS = "setup/countries/bactria/pissuri.txt"
 KRZ = "setup/countries/bactria/kharesmia.txt"
 ARS = "setup/countries/bactria/arachosia.txt"
+OXI = "setup/countries/bactria/oxiania.txt"
+TRY = "setup/countries/bactria/trybactae.txt"
+MGE = "setup/countries/bactria/massagetae.txt"
 
 #Extra Crimea
 SCY = "setup/countries/greece/scythia_europea.txt"
