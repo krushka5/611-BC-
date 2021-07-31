@@ -40,7 +40,7 @@
 {
 	barbarian_power=0
 	civilization_value=37
-	culture="roman"
+	culture="latin_culture"
 	province_rank="city"
 	religion="roman_pantheon"
 	terrain="farmland"
@@ -67,7 +67,7 @@
 {
 	barbarian_power=0
 	civilization_value=37
-	culture="roman"
+	culture="latin_culture"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="farmland"
@@ -115,7 +115,7 @@
 	slaves=
 	{
 		amount=1
-		culture="roman"
+		culture="latin_culture"
 	}
 }
 #Fundi
@@ -299,7 +299,7 @@
 {
 	barbarian_power=0
 	civilization_value=24
-	culture="umbrian" #Change
+	culture="aequian" #Change
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"
@@ -436,7 +436,7 @@
 {
 	barbarian_power=0
 	civilization_value=24
-	culture="umbrian" 
+	culture="aequian" 
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"
@@ -505,7 +505,7 @@
 {
 	barbarian_power=0
 	civilization_value=24
-	culture="umbrian"
+	culture="aequian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"
@@ -586,7 +586,7 @@
 {
 	barbarian_power=0
 	civilization_value=9.8
-	culture="umbrian" 
+	culture="marsian" 
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"
@@ -1763,7 +1763,7 @@
 {
 	barbarian_power=0
 	civilization_value=9.8
-	culture="umbrian"  
+	culture="marsian"  
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"

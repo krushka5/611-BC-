@@ -343,8 +343,11 @@
  tartessian:0 "Tartessian"
  oestrimnian:0 "Oestrimnian"
  latin_culture:0 "Latin"
- romulan:0 "Romulan"
+ reman:0 "Reman"
  philistinian:0 "Philistinian"
+ tyrsenian:0 "Tyrsenian"
+ marsian:0 "Marsian"
+ aequian:0 "Aequian"
 
  #Naming
  aryan_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
