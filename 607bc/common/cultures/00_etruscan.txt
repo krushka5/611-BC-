@@ -350,6 +350,7 @@
 
 	culture = {
 		etruscan  = { }
+		tyrsenian = { }
 		rhaetian = {
 			levy_template = levy_rhaetian
 			male_names = {

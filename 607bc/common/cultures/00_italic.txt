@@ -306,6 +306,8 @@ italic_group = {
 		siculian = {}
 		bruttian = {}
 		lucanian = {}
+		marsian = {}
+		aequian = {}
 	}
 	
 	barbarian_names = { BRUTTII CAMUNNI CARACENI CENOMANI EUGANEI FRINIATES LIBURNI LIGURES LEPONTII LUCANI MAMERTINI PATAVINI PENTRI }

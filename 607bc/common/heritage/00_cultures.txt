@@ -244,6 +244,20 @@ isaurian_culture_heritage = {
 	}
 }
 
+tyrsenian_culture_heritage = {
+	modifier = {
+		#good
+		mercenary_naval_maintenance_cost = -0.1
+		blockade_efficiency = 0.05	
+
+		#bad
+		build_cost = 0.1	
+
+	}
+	trigger = {
+		primary_culture = tyrsenian  
+	}
+}
 
 scythian_hoard_heritage = { # NEEDS LOCAL 
 	modifier = {
