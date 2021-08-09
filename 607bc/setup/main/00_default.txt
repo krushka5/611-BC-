@@ -48,6 +48,8 @@ diplomacy = {
 	dependency = { first = SU1 second = GRG subject_type = tributary }
 	dependency = { first = SU1 second = GTI subject_type = tributary }
 	dependency = { first = SU1 second = ATE subject_type = tributary }
+	# Qedar Confederacy  
+	dependency = { first = QDA second = BDW subject_type = feudatory }
 	# Latin League 
 	defensive_league = {
 		member = ROM
@@ -716,7 +718,26 @@ country = {
 
 			
 			own_control_core = 	{
-				3549 3552 141 154 3553
+				3549 3552 141 154 
+			}
+		}
+		
+		EPA = {
+			government = tribal_kingdom
+			primary_culture = ligurian
+			religion = roman_pantheon
+
+			capital = 3553
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+		
+			own_control_core = 	{
+				3553 3556 3557 3550 3554
 			}
 		}
 		
@@ -2847,7 +2868,7 @@ country = {
 			}
 
 			own_control_core = 	{
-				279
+				279 278
 			}
 		}
 		
@@ -5713,7 +5734,7 @@ country = {
 				1847 837 818 840 879 844
 				855 871 872 832 830 876 873 868 867 833 
 				863 866 986 834 869 870 856 857 842 845 841 878 877
-				735 734 736
+				735 
 				843
 			}
 		}	
@@ -7723,7 +7744,19 @@ country = {
 			capital = 4700
 			
 			own_control_core = 	{
-				4668 4700 4672 4674 4673 4690 4701 4702 4640 4699 4639 4671 4670 4669 4638 4636 3480 3479
+				4700 4690 4701 4702 4640 4699 4639 4669 4638 4636 3480 3479
+			}
+		}
+		
+		AMR = {
+			government = tribal_kingdom
+			primary_culture = minaean
+			religion = arabian_pantheon
+
+			capital = 4674
+			
+			own_control_core = 	{
+				4674 4672 4668 4673 4671 4670
 			}
 		}
 		
@@ -7748,8 +7781,32 @@ country = {
 			
 			own_control_core = 	{
 				4717 4718 4721 7559 7560 
-				4716 4714 4616 4720 4719
+				4716 4720 4719
 				4618 4617
+			}
+		}
+		
+		BDW = {
+			government = tribal_kingdom
+			primary_culture = qedarite
+			religion = arabian_pantheon
+
+			capital = 4714
+			
+			own_control_core = 	{
+				4714 4616
+			}
+		}
+		
+		MSW = {
+			government = tribal_kingdom
+			primary_culture = qedarite #CHANGE? 
+			religion = arabian_pantheon
+
+			capital = 734
+			
+			own_control_core = 	{
+				734 736
 			}
 		}
 		
@@ -7761,9 +7818,33 @@ country = {
 			capital = 4615
 			
 			own_control_core = 	{
-				4615 4622 4609 4607 4605 4604 4715 4713 4611 4619 4608 4610 4621 4620 4625
+				4615 4622 4609 4607 4605 4604 4611 4619 4608 4610 4621 4620 4625
 			}
 		}
+
+		TAM = {
+			government = tribal_kingdom
+			primary_culture = nabatean # CHANGE 
+			religion = arabian_pantheon
+
+			capital = 4600
+			
+			own_control_core = 	{
+				4600
+			}
+		}
+		
+		TQF = {
+			government = tribal_kingdom
+			primary_culture = taif
+			religion = arabian_pantheon
+			
+			capital = 7576
+			
+			own_control_core = {
+				7576 7577				
+			}
+		} 
 		
 		MDA = {
 			government = tribal_kingdom
@@ -7773,7 +7854,7 @@ country = {
 			capital = 725 
 			
 			own_control_core = 	{
-				725 726 724 4600 4612 4601
+				725 726 724 4612 4601
 			}
 		}
 		
@@ -7798,6 +7879,7 @@ country = {
 			
 			own_control_core = 	{
 				4682 4696 4664 4666 4683 4689 4686 4688 4641 4665 4667
+				4693 4697 4681 4694 4687 4654 4692 4698 4655 4656
 			}
 		}
 		
@@ -7809,7 +7891,19 @@ country = {
 			capital = 4662
 			
 			own_control_core = 	{
-				4662 4693 4698 4694 4687 4692 4695 4661 4697 4663 4681 4656 4660 4659 4654 4655
+				4662 4661 4663 4659
+			}
+		}
+		
+		AWS = {  
+			government = tribal_kingdom
+			primary_culture = qatabanian #CHANGE 
+			religion = arabian_pantheon
+
+			capital = 4695
+			
+			own_control_core = 	{
+				4695 4660
 			}
 		}
 		
