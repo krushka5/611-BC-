@@ -751,6 +751,12 @@ MDA = "setup/countries/arabia/midian.txt"
 ZAM = "setup/countries/arabia/zamua.txt"
 ELP = "setup/countries/arabia/ellipi.txt"
 SGA = "setup/countries/arabia/sagartia.txt"
+# ARABIA REAL 
+AWS = "setup/countries/arabia/awsan.txt"
+AMR = "setup/countries/arabia/amir.txt"
+TAM = "setup/countries/arabia/tayma.txt"
+BDW = "setup/countries/arabia/bedawi.txt"
+MSW = "setup/countries/arabia/massa.txt"
 
 #India/Tibet
 MRY = "setup/countries/india/mauryas.txt"
