@@ -1,0 +1,22 @@
+﻿"MED"={
+	country="MED"
+	4={
+		first_name="Cyaxares"
+		family = "Media"
+		birth_date=106.1.1
+		culture="median"
+		religion="mesopotamian_religion"
+		no_stats=yes
+		add_martial=9
+		add_charisma=3
+		add_finesse=3
+		add_zeal=2
+		no_traits=yes
+		add_gold=25
+		add_popularity=100
+		c:MED={
+			set_as_ruler=char:4
+		}
+		dna="CvAK8KaipqK9zL3MAngCeAJ5AnkBUAFQApMCkwJ4AngE1ATUApACkAKGAoYCaAJoA5oDmgKMAowE3ATcAo4CjgA+AD4CkgKSAmgCaAJ9An0CZwJnAnoCegJnAmcCdwJ3AnUCdQKXApcEzATMAWYBZgTLBMsCkgKSApECkQTRBNECegJ6ApQClAJ7AnsClQKVAooCigKGAoYCZwJnAnUCdQKUApQCbwJvApACkAKPAo8CcwJzAm4CbgFvAW8DogOiAVoBWgBCAEIBWwFbAo4CjgO4A7gCagJqADcANwJoAmgCcQJxAnACcAKqAqoAPAA8AAMAAwERAREBbgFuASEBIQDKAMoArQCtANIA0gLBAsEAYwBjAuwC7AB/AH8CpgKmAs0CzQE8ATwAygDKARgBGAD8APwAWABYAM8AzwB/AH8ANgA2AvIC8gK2ArYBIQEhAKEAoQB6AHoCygLKAhoCGgB/AH8BMwEzAUwBTAEaARoBfgF+AH8AfwXNBc0GQwZ6AaABoAPWA9YEdQQ1AgAB2gAAAAAAAAAAAAAAAA=="
+	}
+}
