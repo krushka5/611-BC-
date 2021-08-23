@@ -274,6 +274,11 @@ THY = "setup/countries/anatolia/thynia.txt"
 MNE = "setup/countries/anatolia/matiania.txt"
 HYC = "setup/countries/anatolia/hyrcania.txt"
 LYI = "setup/countries/anatolia/lycaonia.txt"
+ERZ = "setup/countries/anatolia/eriza.txt"
+KDA = "setup/countries/anatolia/kharda.txt"
+SBT = "setup/countries/anatolia/shebeteria.txt"
+HTP = "setup/countries/anatolia/hartapu.txt"
+QUE = "setup/countries/anatolia/que.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
@@ -324,6 +329,9 @@ AKA = "setup/countries/syria/akka.txt"
 EDO = "setup/countries/syria/edom.txt"
 PLS = "setup/countries/syria/philistine.txt"
 ATE = "setup/countries/syria/athar.txt"
+BYK = "setup/countries/syria/bit-yakin.txt"
+BDK = "setup/countries/syria/bit-dakkuri.txt"
+PQD = "setup/countries/syria/puqud.txt"
 ####SULLA####
 
 # Italic
