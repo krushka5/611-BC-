@@ -1,0 +1,47 @@
+namespace = cilicia_events
+
+# MISSION  
+#Ultimation From Cilicia
+cilicia_events.1 = {
+	type = country_event
+	title = "cilicia_events.1.t"
+	desc = "cilicia_events.1.desc"	
+	picture = revolt
+		
+	trigger = {				
+		tag = TBN 
+	}
+	
+	fire_only_once = yes
+	
+	option = { 
+		name = cilicia_events.1.a # Give in to Cilicia's demands 
+		ai_chance = {
+			factor = 70
+		}
+		p:1979 = {
+			set_conquered_by = CLS
+		}
+		p:1982 = {
+			set_conquered_by = CLS
+		}
+		add_stability = -5
+		current_ruler = {
+			add_popularity = -15
+		}
+		
+	}
+
+	option = { 
+		name = cilicia_events.1.b # Never!
+		ai_chance = {
+			factor = 30
+		}
+		add_stability = 5
+		current_ruler = {
+			add_popularity = 15
+		}
+		
+	}
+
+}
