@@ -1062,3 +1062,33 @@ massagetae_heritage = { # NEEDS LOCAL
 		tag = MGE
 	}
 }
+
+urartian_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		global_supply_limit_modifier = 0.1	
+		fort_maintenance_cost = -0.05	
+
+		#bad
+		improve_relation_impact = -0.1
+	}
+	
+	trigger = {
+		tag = URA
+	}
+}
+
+hartapu_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		discipline = 0.05
+		next_ruler_legitimacy = 0.1		
+
+		#bad
+		naval_morale = -0.1	
+	}
+	
+	trigger = {
+		tag = HTP
+	}
+}

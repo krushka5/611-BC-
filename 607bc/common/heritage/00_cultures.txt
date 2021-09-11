@@ -277,3 +277,21 @@ scythian_hoard_heritage = { # NEEDS LOCAL
 		}
 	}
 }
+
+chaldian_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		global_tribesmen_happyness = 0.04
+		hostile_attrition = 1	
+
+		#bad
+		mercenary_maintenance_cost = 0.1	
+	}
+	
+	trigger = {
+		OR = {
+			tag = BYK
+			tag = BDK
+		}
+	}
+}

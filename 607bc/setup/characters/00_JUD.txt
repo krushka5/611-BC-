@@ -1,1 +1,22 @@
-﻿
+﻿"JUD"={
+	country="JUD"
+	5={
+		first_name="Josiah"
+		family = "David"
+		birth_date=106.1.1
+		culture="hebrew"
+		religion="judaism"
+		no_stats=yes
+		add_martial=2
+		add_charisma=5
+		add_finesse=3
+		add_zeal=4
+		no_traits=yes
+		add_gold=25
+		add_popularity=70
+		c:JUD={
+			set_as_ruler=char:5
+		}
+		dna="QPZA9raDtoPj/uP+AnQCdAKDAoMCbwJvAmoCagTFBMUChQKFAWQBZAJwAnACjgKOAocChwJ7AnsBaQFpAo0CjQFdAV0DmwObApICkgKGAoYChgKGAVIBUgJvAm8CjQKNAnECcQKPAo8DngOeAVMBUwJoAmgCcwJzApcClwJ4AngCfAJ8AEIAQgKJAokCfAJ8AooCigKQApACjAKMAWYBZgJvAm8BXAFcAmkCaQAkACQCkwKTAosCiwKZApkDoQOhA6QDpAJzAnMAGgAaAoMCgwKqAqoChgKGAEAAQAKAAoAChgKGApECkQEwATAAnQCdAoUChQDdAN0C+wL7AUEBQQC3ALcC5QLlAvsC+wDVANUACAAIAXoBegB/AH8AwgDCACgAKAFUAVQAIQAhATYBNgBiAGIAhQCFAQIBAgB/AH8BXgFeAGQAZABVAFUAdAB0AQMBAwEzATMCfwJ/BJkEmQAMAAwEZQRlBL8EvwC0ALQEigSKAH8AfwUJBQkQugRKAXMBcwL/Aj0DlwMqA2gDbwAAAAAAAAAAAAAAAA=="
+	}
+}

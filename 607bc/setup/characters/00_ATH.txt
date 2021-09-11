@@ -1,1 +1,22 @@
-﻿
+﻿"ATH"={
+	country="ATH"
+	6={
+		first_name="Solon"
+		family = "Eupatrid"
+		birth_date=124.4.5
+		culture="athenian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=10
+		add_finesse=6
+		add_zeal=4
+		no_traits=yes
+		add_gold=25
+		add_popularity=80
+		c:ATH={
+			set_as_ruler=char:6
+		}
+		dna="GegZ6Ml8yXxsnmyeAnICcgKXApcCdwJ3An4CfgKVApUCZwJnAngCeAJrAmsBXQFdAnUCdQJzAnMCgQKBAokCiQJ0AnQCbgJuAn4CfgJ1AnUCgAKAAokCiQKOAo4CdAJ0AmcCZwJ4AngCZgJmAnkCeQKIAogCfQJ9A6oDqgKRApECbAJsAokCiQOfA58ClQKVA6wDrAKOAo4AKQApAogCiAKAAoACkQKRApMCkwJ9An0CkgKSAncCdwJ7AnsEvAS8AmcCZwJuAm4CeQJ5An4CfgKSApICiQKJAoACgAAxADECaQJpAn8CfwJiAmIAqQCpAr4CvgBIAEgCxgLGAtEC0QCeAJ4BSQFJAG0AbQEKAQoClQKVAFcAVwB/AH8C0QLRAQwBDAKiAqICzQLNATUBNQC4ALgAQwBDAHoAegB/AH8BDwEPARsBGwB4AHgAlwCXANQA1AKFAoUBdQF1AqgCqABQAFAE0QTRAOsA6wBHAEcBWQFZAH8AfwD5APkFpQWiAOEA4QXOBckCkAIzAgICWwAAAAAAAAAAAAAAAA=="
+	}
+}

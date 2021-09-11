@@ -1,4 +1,4 @@
-﻿color = rgb { 144 38 60 }
+﻿color = rgb { 244 217 90 }
 
 ship_names = {
 	Adar Amardad Anahit Aneran "Ara Geghetsik" Aralez Aramazd Ararat Ard "Arda-Fravash" Ardibehesht
