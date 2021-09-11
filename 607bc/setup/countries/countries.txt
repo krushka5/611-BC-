@@ -187,6 +187,20 @@ KTY = "setup/countries/greece/kynthos.txt"
 LPK = "setup/countries/greece/lampsacus.txt"
 PAI = "setup/countries/greece/parion.txt"
 IMB = "setup/countries/greece/imbros.txt"
+KAT = "setup/countries/greece/katane.txt"
+PYL = "setup/countries/greece/pylos.txt"
+LCR = "setup/countries/greece/lycosura.txt"
+PHE = "setup/countries/greece/pheneus.txt"
+CKS = "setup/countries/greece/chalkis.txt"
+SAL = "setup/countries/greece/salamnia.txt"
+SYA = "setup/countries/greece/styra.txt"
+KYT = "setup/countries/greece/karystos.txt"
+DCL = "setup/countries/greece/decelea.txt"
+ORC = "setup/countries/greece/orchomenos.txt"
+TPI = "setup/countries/greece/thespiae.txt"
+AGO = "setup/countries/greece/aigina.txt"
+PTD = "setup/countries/greece/potidaia.txt"
+ELS = "setup/countries/greece/eleusis.txt"
 
 # Crimea and Abkhazia
 
@@ -209,6 +223,7 @@ SND = "setup/countries/caucasiamesopotamia/sindica.txt"
 SCE = "setup/countries/caucasiamesopotamia/siracia.txt"
 LGA = "setup/countries/caucasiamesopotamia/legia.txt"
 SCA = "setup/countries/caucasiamesopotamia/scythia.txt"
+AGS = "setup/countries/greece/aegyssus.txt"
 #
 
 KNO = "setup/countries/greece/knossos.txt"
@@ -736,6 +751,7 @@ SDI = "setup/countries/illyria_dacia/serdi.txt"
 DRR = "setup/countries/illyria_dacia/derronia.txt"
 AGI = "setup/countries/illyria_dacia/agriania.txt"
 GLB = "setup/countries/illyira_dacia/galabria.txt"
+BLY = "setup/countries/illyira_dacia/byllisia.txt"
 
 #Arabia
 SHB = "setup/countries/arabia/sheba.txt"
@@ -765,6 +781,7 @@ AMR = "setup/countries/arabia/amir.txt"
 TAM = "setup/countries/arabia/tayma.txt"
 BDW = "setup/countries/arabia/bedawi.txt"
 MSW = "setup/countries/arabia/massa.txt"
+TAB = "setup/countries/arabia/tubanu.txt"
 
 #India/Tibet
 MRY = "setup/countries/india/mauryas.txt"
