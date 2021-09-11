@@ -17,7 +17,7 @@ spartan_heritage = {
 	modifier = {
 		#good
 		levy_size_multiplier = 0.025
-		discipline = 0.05
+		discipline = 0.04
 		
 		#bad
 		global_slaves_output = -0.05
@@ -231,7 +231,7 @@ athenian_heritage = {
 		monthly_tyranny = -0.02
 		
 		#bad
-		enact_law_cost_modifier = 0.1
+		enact_law_cost_modifier = 0.15
 	}
 	
 	trigger = {
@@ -1092,3 +1092,49 @@ hartapu_heritage = { # NEEDS LOCAL
 		tag = HTP
 	}
 }
+
+chalkis_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		tribute_income_modifier = 0.05	
+		diplomatic_range_modifier = 0.1	
+
+		#bad
+		global_manpower_modifier = -0.05	
+	}
+	
+	trigger = {
+		tag = CKS
+	}
+}
+
+samnos_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		navy_maintenance_cost = -0.15
+		archers_offensive = 0.05
+
+		#bad
+		monthly_governor_wage = 0.05	
+	}
+	
+	trigger = {
+		tag = SMO
+	}
+}
+
+eleusis_heritage = { # NEEDS LOCAL 
+	modifier = {
+		#good
+		omen_power = 0.1	
+		global_nobles_happyness = 0.025	
+
+		#bad
+		monthly_wage_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = ELS
+	}
+}
+

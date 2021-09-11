@@ -1,0 +1,8 @@
+
+mines_of_laurion = {
+    local_slaves_happyness = -0.05	
+    local_goods_from_slaves = -2	
+    base_resources = 1
+	
+}
+

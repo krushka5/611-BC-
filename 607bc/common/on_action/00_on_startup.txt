@@ -5,5 +5,6 @@ on_game_initialized = {
 		startup_events.3 # Sacking Of Nineveh
 		startup_events.4 # Sacking Of Nineveh - Jewish Version
 		startup_events.5 # Arbelan Prize
+		startup_events.6 # Last Stand Of Tabal
 	}
 }
