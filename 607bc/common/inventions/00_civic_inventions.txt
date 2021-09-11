@@ -18,22 +18,6 @@
         requires = { commerce_inv_1 }
     }
 	
-	agoranomoi = {
-        modifier = { global_import_commerce_modifier = 0.025 }
-        requires = { commerce_inv_1 }
-        allow = {
-			OR = {
-				country_culture_group = hellenic
-				custom_tooltip = {
-					text = integrated_any_latin_culture
-					any_country_culture = {
-						is_integrated = yes
-						this.culture.culture_group = culture_group:hellenic
-					}
-				}
-			}
-		}
-    }
 
     # Level 2
     currency_inv_1 = { 
@@ -104,6 +88,23 @@
 		}
 		keystone = yes
         requires = { global_tax_one_inv_1 }
+    }
+	
+	agoranomoi = {
+        modifier = { global_import_commerce_modifier = 0.025 }
+        requires = { capital_trade_inv_2 }
+        allow = {
+			OR = {
+				country_culture_group = hellenic
+				custom_tooltip = {
+					text = integrated_any_latin_culture
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:hellenic
+					}
+				}
+			}
+		}
     }
 	
     # Level 3
