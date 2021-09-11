@@ -1,0 +1,22 @@
+﻿"BAB"={
+	country="BAB"
+	3={
+		first_name="Nabopolassar"
+		family = "Uruk"
+		birth_date=96.1.1
+		culture="babylonian"
+		religion="mesopotamian_religion"
+		no_stats=yes
+		add_martial=10
+		add_charisma=6
+		add_finesse=4
+		add_zeal=7
+		no_traits=yes
+		add_gold=25
+		add_popularity=100
+		c:BAB={
+			set_as_ruler=char:3
+		}
+		dna="R/xH/LiFuIXR+9H7AVUBVQKCAoIDsAOwAo0CjQKJAokCjQKNAn8CfwJqAmoCiQKJAm4CbgKJAokDxAPEAn0CfQAmACYCkwKTAnYCdgJ4AngCfgJ+AoQChAFOAU4CjwKPAowCjAKAAoACbAJsACQAJAJ/An8CfwJ/AX8CjwKSApICkgKSAn8CfwJvAm8CZgJmApICkgKHAocCfAJ8AoACgAKAAoACgAKAAmwCbAKUApQCagJqAnECcQOgA6ACkgKSAn4CfgKHAocClQKVAnkCeQTZBNkCkwKTA4wDjAKOAo4CjQKNAn0CfQKFAoUAUQBRACsAKwD3APcBVwFXAMMAwwAbABsAcwBzAv0C/QKqAqoAhwCHALcAtwB/AH8A8wDzAB8AHwAgACAAOAA4AKMAowD6APoDgAOAAFcAVwB/AH8AiACIAXYBdgCkAKQAQQBBAucC5wLmAuYA+gD6Ay4DLgDbANsC0ALQAwkDCQEtAS0FNQXsAH8AfwWXBZcEqgSqAagBqAL2AvYE/QMmAwED8wAAAAAAAAAAAAAAAA=="
+	}
+}
