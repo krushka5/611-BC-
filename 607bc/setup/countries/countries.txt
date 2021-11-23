@@ -201,6 +201,7 @@ TPI = "setup/countries/greece/thespiae.txt"
 AGO = "setup/countries/greece/aigina.txt"
 PTD = "setup/countries/greece/potidaia.txt"
 ELS = "setup/countries/greece/eleusis.txt"
+POI = "setup/countries/greece/potamoi.txt"
 
 # Crimea and Abkhazia
 
@@ -321,6 +322,8 @@ DRG = "setup/countries/caucasiamesopotamia/drangiana.txt"
 CAM = "setup/countries/caucasiamesopotamia/carmania.txt"
 UTI = "setup/countries/caucasiamesopotamia/utia.txt"
 LBS = "setup/countries/caucasiamesopotamia/larbusa.txt"
+SBR = "setup/countries/caucasiamesopotamia/subria.txt"
+WRR = "setup/countries/caucasiamesopotamia/warthan.txt"
 
 # Arabia/Persia
 OSR = "setup/countries/syria/osroene.txt"
@@ -349,6 +352,11 @@ BYK = "setup/countries/syria/bit-yakin.txt"
 BDK = "setup/countries/syria/bit-dakkuri.txt"
 BSH = "setup/countries/syria/bit-hashmar.txt"
 PQD = "setup/countries/syria/puqud.txt"
+HAM = "setup/countries/syria/hamat.txt"
+DAM = "setup/countries/syria/damas.txt"
+KAR = "setup/countries/syria/karnaia.txt"
+HAU = "setup/countries/syria/hauran.txt"
+
 ####SULLA####
 
 # Italic
