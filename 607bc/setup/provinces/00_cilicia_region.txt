@@ -316,7 +316,7 @@
 	barbarian_power=0
 	civilization_value=18
 	culture="pisidian"
-	province_rank="city"
+	province_rank="settlement"
 	religion="anatolian_religion"
 	terrain="hills"
 	trade_goods="stone"
@@ -389,23 +389,13 @@
 	barbarian_power=0
 	civilization_value=16
 	culture="pisidian"
-	province_rank="city"
+	province_rank="settlement"
 	religion="anatolian_religion"
 	terrain="mountain"
 	trade_goods="salt"
-	citizen=
-	{
-		amount=1
-	}
 	freemen=
 	{
 		amount=2
-	}
-	freemen=
-	{
-		amount=1
-		culture="pamphylian"
-		religion="roman_pantheon"
 	}
 	slaves=
 	{
@@ -532,27 +522,21 @@
 {
 	barbarian_power=0
 	civilization_value=24
-	culture="cypriot"
+	culture="phoenician"
 	port_building=1
 	province_rank="settlement"
-	religion="roman_pantheon"
+	religion="carthaginian_pantheon"
 	terrain="forest"
 	trade_goods="wood"
 	citizen=
 	{
-		amount=1
+		amount=1  
 	}
 	citizen=
 	{
 		amount=1
-		culture="phoenician"
-		religion="carthaginian_pantheon"
-	}
-	citizen=
-	{
-		amount=1
-		culture="hebrew"
-		religion="judaism"
+		culture="cypriot"
+		religion="roman_pantheon"
 	}
 	freemen=
 	{
@@ -561,8 +545,8 @@
 	freemen=
 	{
 		amount=1
-		culture="phoenician"
-		religion="carthaginian_pantheon"
+		culture="cypriot"
+		religion="roman_pantheon"
 	}
 	slaves=
 	{
@@ -571,8 +555,8 @@
 	slaves=
 	{
 		amount=1
-		culture="phoenician"
-		religion="carthaginian_pantheon"
+		culture="cypriot"
+		religion="roman_pantheon"
 	}
 }
 #Soloi Kyprioi
@@ -2301,41 +2285,21 @@
 	barbarian_power=0
 	civilization_value=29
 	culture="milyadian"
-	province_rank="city"
+	province_rank="settlement"
 	religion="anatolian_religion"
 	terrain="hills"
 	trade_goods="hemp"
-	citizen=
-	{
-		amount=1
-	}
-	citizen=
-	{
-		amount=1
-		culture="cretan"
-	}
-	freemen=
-	{
-		amount=2
-	}
 	freemen=
 	{
 		amount=1
-		culture="pisidian"
-	}
-	freemen=
-	{
-		amount=1
-		culture="cretan"
-		religion="roman_pantheon"
 	}
 	slaves=
 	{
-		amount=2
+		amount=1
 	}
 	tribesmen=
 	{
-		amount=1
+		amount=2
 	}
 	tribesmen=
 	{
