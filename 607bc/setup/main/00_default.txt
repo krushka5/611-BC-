@@ -115,12 +115,29 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	
+	819 = { #Carrhae 
+		fortress_building = 1
+		military_building = 3
+		commerce_building = 1
+	}
 	
 	7898 = { #Akrai 
 		fortress_building = 1
 	}
 	
 	1589 = { #Atarbegian 
+		fortress_building = 1
+	}
+	
+	774 = { #Hemesa  
+		fortress_building = 1
+	}
+	
+	830 = { #Nashibiena  
+		fortress_building = 1
+	}
+	
+	804 = { #Soura  
 		fortress_building = 1
 	}
 	########################################
@@ -2742,6 +2759,26 @@ country = {
 			
 			own_control_core = {
 				8015
+			}
+		}
+		
+		
+		POI = {
+			government = oligarchic_republic
+			primary_culture = ionian 
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 789
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				789
 			}
 		}
 		
@@ -5916,7 +5953,7 @@ country = {
 			
 			own_control_core = {
 				998 1560 1561 996 999 991 988 995
-				987 989 846 992 978 994 993 990 1562 
+				987 989 846 978 994 993 990 1562 
 				997 1503 1504 1507 1505 1506 1508 1509 1519 1518
 				1517 1516 1520 1565 1527 1502 1528 1529 1500 1559 1534 1532 1530 1531 1539 
 				1533 1541 1537 1543 1535 1546 1536 1547 1544 1548 1551 1545
@@ -6116,7 +6153,7 @@ country = {
 			own_control_core = {
 				680 683 684 686 685 663 664 682 679 665 
 				678 679 676 672 671 667 668 666 677 648 740
-				723 669 673 719 675 722 715 720 674 
+				669 673 719 675 715 720 674 #723
 				713 717 
 				745 742 
 			}
@@ -6273,6 +6310,7 @@ country = {
 				894 895 893 
 				897 896 977 890 892 891 955 886 957 956 883 835 
 				882 862
+				940
 			}
 		}
 
@@ -6364,18 +6402,106 @@ country = {
 			own_control_core = {
 				819 854 820 848 849 817 853 847 805 809 810 821 822 874 823 831 875 773 861  
 				807 808 852 794 792 824 825 826 827 
-				828 829 908 906 907 806 804 803 802 814 798 1871 793 790 789 791 787 7985 813 851 815 801 800
-				797 782 799 816 850 754 755 756 776 775 781 777 778 774 8011 772 761 762
+				828 829 908 906 907 806 804 803 802 814 798 1871 793 790 791 787 7985 813 851 815 801 800
+				797 782 799 816 850 754 755 756 776 775 781 778 774 8011 772 761 762
 				1879 796 795 812
-				770 757 758 760 759 750 738 753 751 764 763 765 737 739 732 733 
+				770 757 758 760 759 751 764 763 765 733 
 				784 788 786 785
 				1868 1869 811
 				749 752 741
 				1847 837 818 840 879 844
 				855 871 872 832 830 876 873 868 867 833 
-				863 866 986 834 869 870 856 857 842 845 841 878 877
-				735 
-				843
+				863 866 986 834 869 870 856 857 841 878 877 
+			}
+		}	
+
+		KAR = {
+			government = despotic_monarchy
+			primary_culture = aramaic
+			religion = carthaginian_pantheon #CHANGe 
+			capital = 739 	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				739 733 723 722
+			}
+		}			
+		
+		HAM = {
+			government = despotic_monarchy
+			primary_culture = aramaic
+			religion = carthaginian_pantheon 
+			capital = 777 	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				777
+			}
+		}	
+		
+		DAM = {
+			government = despotic_monarchy
+			primary_culture = aramaic
+			religion = carthaginian_pantheon 
+			capital = 750	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				750 753 738
+			}
+		}		
+
+		HAU = {
+			government = despotic_monarchy
+			primary_culture = aramaic
+			religion = carthaginian_pantheon 
+			capital = 737	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				737 732 735 734
+			}
+		}		
+		
+		SBR = {
+			government = despotic_monarchy
+			primary_culture = hurrian
+			religion = mesopotamian_religion 
+			capital = 843 	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				843 992 842 845
 			}
 		}	
 
@@ -6654,6 +6780,7 @@ country = {
 			
 			own_control_core = {
 				4985 4986 4987 3389 3390 1627 1628 1629 1626 1630  
+				1631
 			}
 		}
 		
@@ -6750,7 +6877,7 @@ country = {
 		SSA = {
 			government = despotic_monarchy
 			primary_culture = elamite  
-			religion = zoroaster  
+			religion = zoroaster  # CHANGE 
 			capital = 946 
 			
 			technology={
@@ -6763,6 +6890,7 @@ country = {
 			own_control_core = {
 				946 947 948 949 950 975
 				967
+				980 970 972 945 969
 			}
 		}
 		
@@ -6869,6 +6997,19 @@ country = {
 				1634 1635 1636 1645 1655 1656 1662 #caucasian_albania_region
 				1584 1608 1637 1646 1651 1661 1670 1671 1672 #arran_region
 				1641 1643 1659 1660 5435
+			}
+		
+		}
+		
+		WRR = {
+			government = tribal_chiefdom
+			primary_culture = albanian #CHANGE 
+			religion = caucasian_religion
+
+			capital = 1638
+
+			own_control_core = 	{
+				1638 1654
 			}
 		
 		}
@@ -8636,10 +8777,10 @@ country = {
 			primary_culture = qedarite #CHANGE? 
 			religion = arabian_pantheon
 
-			capital = 734
+			capital = 736
 			
 			own_control_core = 	{
-				734 736
+				736
 			}
 		}
 		
