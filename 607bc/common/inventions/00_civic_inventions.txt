@@ -6,7 +6,13 @@
     commerce_inv_1 = { 
         modifier = { global_import_commerce_modifier = 0.05 }
     }
-
+	
+    cartography_inv_1 = { #CHANGE POSITION LATER
+        modifier = { diplomatic_range_modifier = 0.1 }
+    }
+	
+	## CULTURE UNIQUE ## 
+	
     # Level 1
 	capital_trade_inv_2 = {
         modifier = { global_capital_trade_routes = 1 }
@@ -16,6 +22,14 @@
     global_tax_one_inv_1 = { 
         modifier = { global_tax_modifier = 0.025 }
         requires = { commerce_inv_1 }
+    }
+	
+    mount_messangers_inv_1 = { #CHANGE POSITION LATER
+        modifier = { 
+			diplomatic_range_modifier = 0.05 
+			control_range_modifier = 0.1	
+		}
+        requires = { cartography_inv_1 }
     }
 	
 
@@ -76,6 +90,7 @@
         modifier = { 
 			global_tribesmen_output = 0.005	
 			global_tribesmen_happyness = 0.01
+			mercenary_maintenance_cost = 0.05	
 			
 		}
 		potential  = {
@@ -89,6 +104,22 @@
 		keystone = yes
         requires = { global_tax_one_inv_1 }
     }
+
+	urb_design_inv_1 = { 
+        modifier = { 
+			price_found_city_cost_modifier = -0.1
+		}
+        requires = { capital_trade_inv_2 }
+    }
+
+    crane_inv_1 = { 
+        modifier = { 
+			build_time = -0.05	
+		}
+        requires = { capital_trade_inv_2 }
+    }
+	
+	## CULTURE UNIQUE ##
 	
 	agoranomoi = {
         modifier = { global_import_commerce_modifier = 0.025 }
@@ -108,6 +139,13 @@
     }
 	
     # Level 3
+    promisary_inv_1 = { 
+        modifier = { 
+			monthly_wage_modifier = -0.025
+		}
+        requires_or = { enforced_barter_inv_1 currency_inv_1 }
+    }
+	
     monetary_standards_inv_1 = { 
         modifier = { 
 			global_commerce_modifier = 0.05	
@@ -122,6 +160,273 @@
 			global_tax_modifier = 0.0025
 			global_nobles_happyness = -0.0025
 		}
+		
+		potential  = {
+			OR = {
+				NOT = {
+					oligarchic_party_support >= 40
+				}
+				is_monarchy = yes
+			}
+		}
+		
+		#on_activate = {
+		#	if = {
+		#		limit = {
+		#			is_republic = yes
+		#		}
+		#		add_party_approval = {
+		#			party = oligarchic_party 
+		#			value = -5
+		#		}
+		#	}
+		#}
+		
         requires = { currency_inv_1 }
     }
+	
+	
+   salt_salaries = { 
+        modifier = { 
+			army_maintenance_cost = -0.02	
+			
+		}
+		potential  = {
+			any_owned_province = {
+				trade_goods = salt 
+			}
+		}
+        on_activate = {
+			
+		}
+        requires = { enforced_barter_inv_1 }
+    }
+	
+   wild_game_hunting_techniques = { 
+        modifier = { 
+			archers_forest_combat_bonus = 0.02	
+			
+		}
+		potential  = {
+			any_owned_province = {
+				trade_goods = wild_game  
+			}
+		}
+        on_activate = {
+			every_owned_province = {
+				limit = {
+					trade_goods = wild_game  
+				}
+				add_province_modifier = {
+					name = game_hunting_encouraged
+					duration = 3150		
+				}
+			}
+		}
+        requires = { enforced_barter_inv_1 }
+    }
+	
+    stoa_inv_1 = { 
+        modifier = { 
+			forum_building_cost = -0.05 
+			temple_building_cost = -0.025
+		}
+        requires = { crane_inv_1 urb_design_inv_1 }
+    }
+	
+	insula_inv_1 = { # MOVE ELSEWHWERE 
+        modifier = { 
+			global_population_capacity_modifier = 0.1 
+		}
+        requires = { urb_design_inv_1 }
+    } 
+	
+    geometric_1 = { 
+        modifier = { 
+			global_nobles_output = 0.05
+		}
+        on_activate = {
+			every_owned_province = {
+				limit = {
+					AND = {
+						trade_goods = earthware
+						OR = {
+							is_capital = yes 
+							has_city_status = yes
+						}
+					}
+				}
+				add_province_modifier = {
+					name = game_hunting_encouraged #CHANGE 
+					duration = 3150		
+				}
+			}
+		}
+        requires_or = { urb_design_inv_1 }
+		
+        allow = {
+			OR = {
+				country_culture_group = anatolian 
+				country_culture_group = east_levantine  
+				country_culture_group = west_levantine  
+				country_culture_group = east_anatolian  
+				country_culture_group = lower_mesopotamian   
+				country_culture_group = hebraic   
+				country_culture_group = luwian   				
+				#REWORK
+			}
+		}	
+    }
+	
+    # Level 3
+    foreign_trade_11 = { 
+        modifier = { 
+			global_capital_trade_routes = 1	
+		}
+		
+		potential  = {
+			any_country = { 
+				limit = {
+					NOT= { ROOT }
+				}
+				imports_from = ROOT 
+			}
+			# Export function perhaps? 
+		}
+        requires = { monetary_standards_inv_1 }
+    }
+	
+    # Level 4
+    foreign_currency_exchange_1 = { 
+        modifier = { 
+			global_commerce_modifier = 0.05
+		}
+		
+		potential  = {
+			# Variable for multiple countries having currency? Implement after adding institutions 
+		}
+        requires = { foreign_trade_11 }
+    }	
+	
+   supply_wagons = { 
+        modifier = { 
+			supply_train_cost = -0.1
+			
+		}
+        on_activate = {
+			
+		}
+        requires = { salt_salaries }
+    }
+	
+	## CULTURE UNIQUE ## 
+    geometric_2 = { 
+        modifier = { 
+			global_nobles_output = 0.05	
+		}
+        on_activate = {
+			every_owned_province = {
+				limit = {
+					AND = {
+						trade_goods = earthware
+						OR = {
+							is_capital = yes 
+							has_city_status = yes
+						}
+					}
+				}
+				add_province_modifier = {
+					name = game_hunting_encouraged #CHANGE 
+					duration = 3150		
+				}
+			}
+		}
+        requires = { urb_design_inv_1 foreign_trade_11 }
+		
+        allow = {
+			NOT = {
+				OR = {
+					country_culture_group = anatolian 
+					country_culture_group = east_levantine  
+					country_culture_group = west_levantine  
+					country_culture_group = east_anatolian  
+					country_culture_group = lower_mesopotamian   
+					country_culture_group = hebraic   
+					country_culture_group = luwian   				
+					#REWORK
+				}
+			}
+		}	
+    }
+	
+	hellas_eschate_1 = {
+        modifier = { 
+			global_capital_trade_routes = 1	
+		}
+
+		potential  = {
+			any_country = { 
+				#AND = {
+				#	any_owned_province = {
+				#		limit = {
+				#			country_culture_group = hellenic
+				#		}
+				#		OR = {
+				#			region = ariana_region 
+				#			region = bactriana_region  
+				#			region = gedrosia_region 
+				#			region = gandhara_region 
+				#			region = maru_region  
+				#			region = avanti_region 
+				#			region = madhyadesa_region 
+				#			region = pracya_region 
+				#			region = vindhyaprstha_region 
+				#			region = dravida_region 
+				#			region = aparanta_region  
+				#			region = karnata_region 
+				#			region = tibet_region 
+				#			region = himalayan_region 
+				#			region = sogdiana_region
+				#		}
+				#	}
+				#}
+				# FIND LAGLESS WAY OF DOING THIS
+			}
+		}
+		
+        allow = {
+			OR = {
+				country_culture_group = hellenic
+				custom_tooltip = {
+					text = integrated_any_latin_culture
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:hellenic
+					}
+				}
+			}
+		}	
+		
+		requires = { foreign_trade_11 }
+	}
+	
+	# Level 5 
+    merc_inv_1 = { 
+        modifier = { 
+			recruit_mercenary_cost_modifier = -0.05
+
+		}
+		
+		potential  = {
+			# Variable for multiple countries having currency? Implement after adding institutions 
+		}
+        requires = { foreign_currency_exchange_1 }
+    }	
+	
+	## PLAN ## 
+	# - Hellas Eschate (Any greek country owns a province in the East and only available to greek countries)
+	# - Water Breathers (Military tree perhaps?) 
+	# -  cursus publicus (Roman unique mounted messanger) 
+	# - Lighthouse (Cheaper ports?) 
+	# - Hacksilber (Late currency adoption?) 
 }

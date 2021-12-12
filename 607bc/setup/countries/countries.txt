@@ -202,6 +202,7 @@ AGO = "setup/countries/greece/aigina.txt"
 PTD = "setup/countries/greece/potidaia.txt"
 ELS = "setup/countries/greece/eleusis.txt"
 POI = "setup/countries/greece/potamoi.txt"
+SLY = "setup/countries/greece/selymbria.txt"
 
 # Crimea and Abkhazia
 
@@ -295,6 +296,8 @@ KDA = "setup/countries/anatolia/kharda.txt"
 SBT = "setup/countries/anatolia/shebeteria.txt"
 HTP = "setup/countries/anatolia/hartapu.txt"
 QUE = "setup/countries/anatolia/que.txt"
+POG = "setup/countries/anatolia/pogla.txt"
+AMA = "setup/countries/anatolia/armania.txt"
 
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
@@ -324,6 +327,17 @@ UTI = "setup/countries/caucasiamesopotamia/utia.txt"
 LBS = "setup/countries/caucasiamesopotamia/larbusa.txt"
 SBR = "setup/countries/caucasiamesopotamia/subria.txt"
 WRR = "setup/countries/caucasiamesopotamia/warthan.txt"
+CSP = "setup/countries/caucasiamesopotamia/caspiani.txt"
+ACE = "setup/countries/caucasiamesopotamia/anariacae.txt"
+KAS = "setup/countries/caucasiamesopotamia/kassia.txt"
+VIT = "setup/countries/caucasiamesopotamia/vitii.txt"
+GRD = "setup/countries/caucasiamesopotamia/gardman.txt"
+SHG = "setup/countries/caucasiamesopotamia/shahargah.txt"
+KDS = "setup/countries/caucasiamesopotamia/kaladasht.txt"
+SHK = "setup/countries/caucasiamesopotamia/shaki.txt"
+GBI = "setup/countries/caucasiamesopotamia/gumbati.txt"
+CBC = "setup/countries/caucasiamesopotamia/chambysene.txt"
+CBL = "setup/countries/caucasiamesopotamia/chambala.txt"
 
 # Arabia/Persia
 OSR = "setup/countries/syria/osroene.txt"
@@ -356,6 +370,8 @@ HAM = "setup/countries/syria/hamat.txt"
 DAM = "setup/countries/syria/damas.txt"
 KAR = "setup/countries/syria/karnaia.txt"
 HAU = "setup/countries/syria/hauran.txt"
+AZZ = "setup/countries/syria/azzah.txt"
+EKR = "setup/countries/syria/ekron.txt"
 
 ####SULLA####
 
@@ -803,6 +819,7 @@ TAM = "setup/countries/arabia/tayma.txt"
 BDW = "setup/countries/arabia/bedawi.txt"
 MSW = "setup/countries/arabia/massa.txt"
 TAB = "setup/countries/arabia/tubanu.txt"
+YTB = "setup/countries/arabia/yatrib.txt"
 
 #India/Tibet
 MRY = "setup/countries/india/mauryas.txt"
