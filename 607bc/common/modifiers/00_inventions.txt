@@ -1,0 +1,5 @@
+
+game_hunting_encouraged = {
+    local_tribesmen_output = 0.05
+    local_unrest = -0.05	
+}
