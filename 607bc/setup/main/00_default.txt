@@ -55,10 +55,13 @@ diplomacy = {
 	dependency = { first = SU1 second = ATE subject_type = tributary }
 	# Qedar Confederacy  
 	dependency = { first = QDA second = BDW subject_type = feudatory }
-	# Urartu Tributes 
+	# Urartu Tributes & Puppets 
+	dependency = { first = URA second = AMA subject_type = feudatory }
 	dependency = { first = URA second = SBT subject_type = tributary }
 	dependency = { first = URA second = KDA subject_type = tributary }
 	dependency = { first = URA second = ERZ subject_type = tributary }	
+	# Megara Subjects
+	dependency = { first = MGA second = SAL subject_type = feudatory }
 	# Latin League 
 	defensive_league = {
 		member = ROM
@@ -140,6 +143,13 @@ provinces = { #Any entry must contain a comment with city name.
 	804 = { #Soura  
 		fortress_building = 1
 	}
+	
+	685 = { #Carrhae 
+		fortress_building = 1
+		workshop_building = 2
+		commerce_building = 1
+	}
+	
 	########################################
 	# Barbarian Spawn Spots
 	########################################
@@ -1856,7 +1866,27 @@ country = {
 			}
 			
 			own_control_core = {
-				341 345 1453 
+				341 1453 
+			}
+			
+		}
+		
+		SLY = {
+			government = plutocratic_republic
+			primary_culture = thracian
+			religion = roman_pantheon
+			diplomatic_stance=trading_stance
+			capital = 345	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				345  
 			}
 			
 		}
@@ -5376,6 +5406,24 @@ country = {
 			}
 		}
 
+		POG = {
+			government = tribal_federation
+			primary_culture = milyadian
+			religion = anatolian_religion  
+			capital = 1986
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=1 progress=0 } #CHANGE 
+				oratory_tech={ level=1 progress=0 } #CHANGE 
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				1986
+			}
+		}		
+		
 		ISI = {
 			government = tribal_federation
 			primary_culture = milyadian
@@ -5909,6 +5957,7 @@ country = {
 				1706 1737 1711 1714 1717 1735 #colchis_region
 				1739 1740 #abasgoi_region
 				1722 1723 1724 1725 1726 1727 1729 1730 #bekhyria_region
+				1701 1700 # Passes
 			}
 		}
 		
@@ -5937,10 +5986,30 @@ country = {
 			
 		}
 		
-		URA = {
+		AMA = {
 			government = despotic_monarchy
 			primary_culture = armenian
-			religion = zoroaster # CHANGE 
+			religion = anatolian_religion #CHANGE 
+			diplomatic_stance=warmongering_stance
+			capital = 1564
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				1564 1563 1736 1566 1562
+				1567 1568 1569 1570
+			}
+		}
+		
+		URA = {
+			government = despotic_monarchy
+			primary_culture = nairi
+			religion = anatolian_religion
 			diplomatic_stance=warmongering_stance
 			capital = 998
 			
@@ -5953,12 +6022,12 @@ country = {
 			
 			own_control_core = {
 				998 1560 1561 996 999 991 988 995
-				987 989 846 978 994 993 990 1562 
+				987 989 846 978 994 993 990  
 				997 1503 1504 1507 1505 1506 1508 1509 1519 1518
 				1517 1516 1520 1565 1527 1502 1528 1529 1500 1559 1534 1532 1530 1531 1539 
 				1533 1541 1537 1543 1535 1546 1536 1547 1544 1548 1551 1545
 				1571 1572 1573 1575 1589 1588 1591 1592 
-				1563 1736 1564 1566 1567 1568 1549 1569 1570 1576 1579 1663 1550 1542 
+				1549 1576 1579 1663 1550 1542 
 			}
 		}
 		
@@ -6132,7 +6201,7 @@ country = {
 			
 			own_control_core = {
 				687 688 689 691 692 711 #judea_region
-				690 693 695 658 657 697 696 662 
+				690 693 695 657 697 696 662 
 			}
 			
 		}
@@ -6151,7 +6220,7 @@ country = {
 			}
 			
 			own_control_core = {
-				680 683 684 686 685 663 664 682 679 665 
+				680 683 684 686 664 682 679 665 
 				678 679 676 672 671 667 668 666 677 648 740
 				669 673 719 675 715 720 674 #723
 				713 717 
@@ -6269,6 +6338,43 @@ country = {
 				729 730 728 727 705 704 703 707 708 702 698 699 700 710 709 706
 			}
 		}
+
+		EKR = {
+			government = despotic_monarchy
+			primary_culture = philistinian 
+			religion = carthaginian_pantheon
+			capital = 685
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				685 
+				663
+			}
+		}
+		
+		AZZ = {
+			government = despotic_monarchy
+			primary_culture = philistinian 
+			religion = carthaginian_pantheon
+			capital = 659
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				659 658
+			}
+		}
 		
 		PLS = {
 			government = despotic_monarchy
@@ -6284,7 +6390,7 @@ country = {
 			}
 			
 			own_control_core = {
-				661 660 659
+				661 660
 				694
 			}
 		}
@@ -6682,6 +6788,13 @@ country = {
 			religion = anatolian_religion  
 			capital = 292 	
 			
+			poptype_rights = { 
+				{
+					culture = phrygian  
+					type = citizen
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -6748,7 +6861,7 @@ country = {
 				1595 4963 4964 4981 4982 4980 4979 3391 4976 4974 3392 4975
 				4991 4999 3381 3396 3382 4983 3395 3394 3452 4992 4993 3453
 				3442 3443 6509 3433 3398 4973 6510 6507 3432 3397 4972 
-				1594 1596 1597 1598 1599 1601 1602 3393 4965 4968 4966 
+				1594 1596 1597 1598 1599 1601 1602 3393 4965   
 				885 888 889 958 959 981 982 983 1603  
 				1593 3387 
 				#887 884      
@@ -6762,6 +6875,24 @@ country = {
 				4792 4793 4794 
 				4781 4782 4953 4950 4796 4795
 				4785 4784 4786 4787 
+			}
+		}	
+		
+		KAS = {
+			government = tribal_kingdom
+			primary_culture = median   #CHANGE  
+			religion = zoroaster  #CHANGE  
+			capital = 4966 	
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {
+				4966 4968
 			}
 		}	
 		
@@ -6780,7 +6911,6 @@ country = {
 			
 			own_control_core = {
 				4985 4986 4987 3389 3390 1627 1628 1629 1626 1630  
-				1631
 			}
 		}
 		
@@ -6891,6 +7021,7 @@ country = {
 				946 947 948 949 950 975
 				967
 				980 970 972 945 969
+				943 4779
 			}
 		}
 		
@@ -6986,7 +7117,7 @@ country = {
 			}
 		}	
 
-		ALB = {
+		CBL = {
 			government = tribal_chiefdom
 			primary_culture = albanian
 			religion = caucasian_religion
@@ -6994,9 +7125,99 @@ country = {
 			capital = 1636
 
 			own_control_core = 	{
-				1634 1635 1636 1645 1655 1656 1662 #caucasian_albania_region
-				1584 1608 1637 1646 1651 1661 1670 1671 1672 #arran_region
-				1641 1643 1659 1660 5435
+				1635 1636 #caucasian_albania_region
+				1637 1661 1670 #arran_region  
+			}
+		
+		}
+		
+		CBC = {
+			government = tribal_chiefdom
+			primary_culture = albanian 
+			religion = caucasian_religion
+
+			capital = 1660
+
+			own_control_core = 	{
+				1660 1643
+			}
+		}
+		
+
+		GBI = {
+			government = tribal_chiefdom
+			primary_culture = albanian 
+			religion = caucasian_religion
+
+			capital = 1641
+
+			own_control_core = 	{
+				1641 5435 1659
+			}
+		
+		}
+
+		SHK = {
+			government = tribal_chiefdom
+			primary_culture = albanian 
+			religion = caucasian_religion
+
+			capital = 1645
+
+			own_control_core = 	{
+				1645 1656
+			}
+		
+		}
+
+		KDS = {
+			government = tribal_chiefdom
+			primary_culture = albanian 
+			religion = caucasian_religion
+
+			capital = 1655
+
+			own_control_core = 	{
+				1655 1584
+			}
+		
+		}
+
+		SHG = {
+			government = tribal_chiefdom
+			primary_culture = albanian 
+			religion = caucasian_religion
+
+			capital = 1651
+
+			own_control_core = 	{
+				1651 1672
+			}
+		
+		}
+		
+		GRD = {
+			government = tribal_chiefdom
+			primary_culture = albanian 
+			religion = caucasian_religion
+
+			capital = 1646
+
+			own_control_core = 	{
+				1646 1608
+			}
+		
+		}
+
+		VIT = {
+			government = tribal_chiefdom
+			primary_culture = albanian 
+			religion = caucasian_religion
+
+			capital = 1662
+
+			own_control_core = 	{
+				1662 1634
 			}
 		
 		}
@@ -7010,6 +7231,32 @@ country = {
 
 			own_control_core = 	{
 				1638 1654
+			}
+		
+		}
+
+		CSP = {
+			government = tribal_chiefdom
+			primary_culture = caspian
+			religion = caucasian_religion
+
+			capital = 1644
+
+			own_control_core = 	{
+				1644 1647 1652 1642 1633 1648
+			}
+		
+		}
+
+		ACE = {
+			government = tribal_chiefdom
+			primary_culture = albanian #CHANGE 
+			religion = caucasian_religion
+
+			capital = 1632
+
+			own_control_core = 	{
+				1632 1649 1618 1619 1631
 			}
 		
 		}
@@ -7334,7 +7581,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			capital = 641
+			capital = 626
 			
 			own_control_core = {
 				600 601 603 602 7580 604 7579 606 7581 605 7582 607 # North Nubia
@@ -8698,6 +8945,18 @@ country = {
 			}
 		}
 		
+		YTB = {
+			government = tribal_federation
+			primary_culture = thamudi
+			religion = arabian_pantheon
+			
+			capital = 4624
+			
+			own_control_core = {
+				4623 4624 4653
+			}
+		} 
+		
 		THD = {
 			government = tribal_federation
 			primary_culture = thamudi
@@ -8706,7 +8965,7 @@ country = {
 			capital = 7575
 			
 			own_control_core = {
-				7575 7574 4631 4629 4628 4653 4624 4626 4627 4630 4632 4633 7578 4634 4635 7601 4623
+				7575 7574 4631 4629 4628 4626 4627 4630 4632 4633 7578 4634 4635 7601 
 			}
 		} 
 		
@@ -8801,10 +9060,10 @@ country = {
 			primary_culture = nabatean # CHANGE 
 			religion = arabian_pantheon
 
-			capital = 4600
+			capital = 4715
 			
 			own_control_core = 	{
-				4600
+				4715 4713
 			}
 		}
 		
@@ -8829,6 +9088,7 @@ country = {
 			
 			own_control_core = 	{
 				725 726 724 4612 
+				4600
 			}
 		}
 		
@@ -9622,6 +9882,7 @@ country = {
 			own_control_core = {
 				1617 1650 1639 1640 1666 1664 1665 1667 
 				1616 1623 1622 1538 1540 1501 1669 1614 1613 1668 1615
+				1671
 			}
 		}
 		
