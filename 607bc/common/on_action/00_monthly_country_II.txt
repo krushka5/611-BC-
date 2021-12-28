@@ -1,0 +1,8 @@
+﻿monthly_country_pulse = {
+
+	events = {
+		assyrian_events.2 
+		assyrian_events.3
+	}
+
+}

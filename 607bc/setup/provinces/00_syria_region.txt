@@ -116,11 +116,11 @@
 	trade_goods="dye"
 	nobles=
 	{
-		amount=1
+		amount=2
 	}
 	citizen=
 	{
-		amount=7
+		amount=8
 	}
 	citizen=
 	{
@@ -136,7 +136,7 @@
 	}
 	freemen=
 	{
-		amount=9
+		amount=10
 	}
 	slaves=
 	{
@@ -197,17 +197,21 @@
 	barbarian_power=0
 	civilization_value=26
 	culture="phoenician"
-	province_rank="settlement"
+	province_rank="city"
 	religion="carthaginian_pantheon"
 	terrain="plains"
 	trade_goods="glass"
+	citizen=
+	{
+		amount=3
+	}
 	freemen=
 	{
-		amount=1
+		amount=5
 	}
 	slaves=
 	{
-		amount=2
+		amount=3
 	}
 }
 #Sidun
@@ -989,7 +993,13 @@
 	trade_goods="wood"
 	citizen=
 	{
-		amount=5
+		amount=4
+	}
+	citizen=
+	{
+		amount=1
+		culture="assyrian"
+		religion="mesopotamian_religion"
 	}
 	freemen=
 	{

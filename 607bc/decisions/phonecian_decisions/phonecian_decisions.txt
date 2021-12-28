@@ -1,0 +1,122 @@
+﻿country_decisions = {
+	sieze_the_cedars_sur = {
+		potential = {
+			tag = SU1
+			OR = {
+				owns = 746
+				owns = 743
+			}
+			has_global_variable = anti_assyria_stance_phonecia
+			NOT = { 
+				has_variable = advanced_the_front_ass 
+			}
+			c:ASS= {
+				owns = 752
+			}
+			c:ASS= {
+				owns = 741
+			}
+		}
+		
+		allow = {
+			manpower > 1
+			war = no 
+			c:ASS= {
+				owns = 752
+			}
+			c:ASS= {
+				owns = 741
+			}
+			current_date > 142.12.1
+		}
+		
+		effect = {
+			set_variable = advanced_the_front_ass
+			add_manpower = -1
+			p:752 = {
+				set_conquered_by = ROOT
+			}
+			p:741 = {
+				set_conquered_by = ROOT
+			}
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+	sieze_the_cedars_bet = {
+		potential = {
+			tag = BET
+			owns = 748
+			has_global_variable = anti_assyria_stance_phonecia
+			NOT = { 
+				has_variable = advanced_the_front_ass 
+			}
+			c:ASS= {
+				owns = 749
+			}
+		}
+		
+		allow = {
+			manpower > 1
+			war = no 
+			c:ASS= {
+				owns = 749
+			}
+			current_date > 143.1.1
+		}
+		
+		effect = {
+			set_variable = advanced_the_front_ass
+			add_manpower = -1
+			p:749= {
+				set_conquered_by = ROOT
+			}
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
+	
+	
+	#sieze_the_cedars_ara = {
+	#	potential = {
+	#		tag = ARA
+	#		OR = {
+	#			owns = 779
+	#			owns = 771
+	#		}
+	#		has_global_variable = anti_assyria_stance_phonecia
+	#		NOT = { 
+	#			has_variable = advanced_the_front_ass 
+	#		}
+	#		c:ASS= {
+	#			owns = 8011
+	#		}
+	#	}
+	#	
+	#	allow = {
+	#		manpower > 1
+	#		war = no 
+	#		c:ASS= {
+	#			owns = 8011
+	#		}
+	#		current_date > 143.1.1
+	#	}
+	#	
+	#	effect = {
+	#		set_variable = advanced_the_front_ass
+	#		add_manpower = -1
+	#		p:8011= {
+	#			set_conquered_by = ROOT
+	#		}
+	#	}
+	#	
+	#	ai_will_do = {
+	#		base = 100
+	#	}
+	#}
+}

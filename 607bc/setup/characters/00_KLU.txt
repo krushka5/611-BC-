@@ -1,0 +1,22 @@
+﻿"KLU"={
+	country="KLU"
+	7={
+		first_name="Nabu-Nasir"
+		family_name = c:KLU.fam:Sharri
+		birth_date=115.4.1
+		culture="assyrian"
+		religion="mesopotamian_religion"
+		no_stats=yes
+		add_martial=3
+		add_charisma=5
+		add_finesse=5
+		add_zeal=5
+		no_traits=yes
+		add_gold=120
+		add_popularity=95
+		c:KLU ={
+			set_as_ruler=char:7
+		}
+		dna="Jewl7MOlw6XnneedA4gDiAKXApcDoAOgAnQCdAKSApICiAKIAnwCfAKLAosBYQFhAmgCaAKNAo0CpwKnAnACcAJ7AnsCdAJ0ApICkgKMAowCkwKTAnYCdgJpAmkCmAKYAEYARgJpAmkCZgJmBLUEtQJtAm0ClgKWAEQARAKRApECcgJyAoECgQKKAooClAKUAnICcgJxAnEANQA1AmoCagKWApYCbQJtAVoBWgKBAoECjAKMAncCdwTfBN8CjAKMAnYCdgFdAV0ClgKWAnICcgKKAooCjAKMAEsASwJ9An0CkAKQAocChwKOAo4ATQBNAFsAWwE6AToApQClAPMA8wCCAIIBJgEmAH0AfQLuAu4CIwIjADkAOQB/AH8A1gDWAOsA6wFxAXEAjQCNAFIAUgF5AXkChQKFACEAIQB/AH8BaAFoAXwBfADDAMMCkAKQAFEAUQArACsAhQCFAzIDMgDYANgCnAKcArACsARrBGsCiAKIAH8AfwUCBQIGKAb0AX4BfgPgA+AEJgQmAcsBywAAAAAAAAAAAAAAAA=="
+	}
+}

@@ -1,6 +1,6 @@
 namespace = news_events
 
-#The Decline Of The Luwians
+#The Decline Of The Luwians - REWORK
 news_events.1 = {
 	type = country_event
 	title = "news_events.1.t"

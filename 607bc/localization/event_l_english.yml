@@ -2932,3 +2932,7 @@
  news_events.3.a:0 "What a waste of gold!" 
  news_events.3.b:0 "Interesting"
  news_events.3.c:0 "We should replicate this.."
+ startup_events.8.a:0 "We should strike while they are weak!"
+ assyrian_events.3.desc:0 "Concerning the horses, Assyrian and Aramean scribes, cohort commanders, officials, coppersmiths, blacksmiths, those who clean the tools and equipment, carpenters, bow-makers, arrow-makers, weavers, tailors and repairers, to whom should I turn? … Not one of them is there. How can I command? … The lists are not at my disposal. According to what can they collect them? Death will come out of it. No one will escape. I am done."
+ assyrian_events.3.t:0 "Loss Of Tushan" 
+ assyrian_events.3.a:0 "Fall back!" 
