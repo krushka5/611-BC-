@@ -36,3 +36,114 @@ assyrian_events.1 = {
 	}
 
 }
+
+#Awakening of a kingdom 
+assyrian_events.2 = {
+	type = country_event
+	title = "assyrian_events.2.t"
+	desc = "assyrian_events.2.desc"	
+	picture = revolt
+		
+	trigger = {				
+		tag = HAM 
+		NOT = {
+			war_with = ASS
+		}
+	}
+	
+	fire_only_once = yes
+	
+	# Hamath 
+	option = { 
+		name = assyrian_events.2.a # 
+		trigger = {
+			OR = {
+				owns = 774
+				owns = 777 
+			}
+		}
+		change_country_name = Hamath 
+		ai_chance = {
+			factor = 20
+		}
+		
+		current_ruler = {
+			add_popularity = 10
+		}
+	}
+	
+	# Palmyra  
+	option = { 
+		name = assyrian_events.2.b # 
+		trigger = {
+			owns = 754
+		}
+		change_country_name = Palmyra 
+		ai_chance = {
+			factor = 20
+		}
+		
+		current_ruler = {
+			add_popularity = 10
+		}
+	}
+	
+	
+	# Ramitha   
+	option = { 
+		name = assyrian_events.2.c # 
+		trigger = {
+			owns = 786
+			num_of_cities = 1
+		}
+		change_country_name = Ramitha 
+		set_primary_culture = phoenician
+		ai_chance = {
+			factor = 20
+		}
+		
+		current_ruler = {
+			add_popularity = 10
+		}
+	}
+	
+	# Maintain the governorate   
+	option = { 
+		name = assyrian_events.2.zz # 
+		ai_chance = {
+			factor = 20
+		}
+		
+	}
+
+}
+
+
+assyrian_events.3 = {
+	type = country_event
+	title = "assyrian_events.3.t"
+	desc = "assyrian_events.3.desc"	
+	picture = revolt
+		
+	trigger = {				
+		tag = ASS 
+		NOR = {
+			has_variable = ASS_FALL_final
+			c:ASS = {
+				owns = 857
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	
+	# Fall Back! 
+	option = { 
+		name = assyrian_events.3.a # 
+		ai_chance = {
+			factor = 100
+		}
+		# KILL Mannu-ki-libbali
+	}
+
+}
