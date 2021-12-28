@@ -298,7 +298,7 @@
 	civilization_value=38
 	culture="assyrian"
 	province_rank="city"
-	religion="roman_pantheon"
+	religion="mesopotamian_religion"
 	terrain="plains"
 	trade_goods="horses"
 	nobles=
@@ -315,7 +315,7 @@
 	}
 	freemen=
 	{
-		amount=1
+		amount=2
 		culture="hurrian"
 	}
 	slaves=
@@ -324,7 +324,7 @@
 	}
 	slaves=
 	{
-		amount=1
+		amount=3
 		culture="hurrian"
 	}
 	slaves=
@@ -336,6 +336,7 @@
 	tribesmen=
 	{
 		amount=2
+		culture="hurrian"
 	}
 }
 #Singara
@@ -1032,25 +1033,48 @@
 	barbarian_power=0
 	civilization_value=31
 	culture="assyrian"
-	province_rank="settlement"
-	religion="zoroaster"
+	province_rank="city"
+	religion="mesopotamian_religion"
 	terrain="plains"
 	trade_goods="grain"
-	freemen=
+	nobles=
+	{
+		amount=1
+	}
+	nobles=
+	{
+		amount=1
+		culture="hurrian"
+	}
+	citizen=
 	{
 		amount=4
 	}
+	freemen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=2
+		culture="hurrian"
+	}
 	slaves=
 	{
-		amount=3
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+		culture="hurrian"
+	}
+	tribesmen=
+	{
+		amount=2
 	}
 	tribesmen=
 	{
 		amount=3
-	}
-	tribesmen=
-	{
-		amount=1
 		culture="hurrian"
 	}
 }

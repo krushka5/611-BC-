@@ -695,18 +695,13 @@
 	culture="cilician"
 	port_building=1
 	province_rank="settlement"
-	religion="roman_pantheon"
+	religion="anatolian_religion"
 	terrain="plains"
 	trade_goods="wood"
 	citizen=
 	{
 		amount=2
 	}
-	citizen=
-	{
-		amount=1
-		culture="ionian"
-	}
 	freemen=
 	{
 		amount=2
@@ -714,12 +709,8 @@
 	freemen=
 	{
 		amount=1
-		culture="macedonian"
-	}
-	freemen=
-	{
-		amount=1
 		culture="ionian"
+		religion="roman_pantheon"
 	}
 	slaves=
 	{
@@ -729,13 +720,11 @@
 	{
 		amount=1
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 	tribesmen=
 	{
 		amount=1
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 }
 #Issos
@@ -745,7 +734,7 @@
 	civilization_value=24
 	culture="cilician"
 	province_rank="settlement"
-	religion="roman_pantheon"
+	religion="anatolian_religion"
 	terrain="plains"
 	trade_goods="olive"
 	citizen=
@@ -756,7 +745,6 @@
 	{
 		amount=1
 		culture="hittite"
-		religion="anatolian_religion"
 	}
 	freemen=
 	{
@@ -766,7 +754,6 @@
 	{
 		amount=1
 		culture="hittite"
-		religion="anatolian_religion"
 	}
 	slaves=
 	{
@@ -776,13 +763,11 @@
 	{
 		amount=1
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 	tribesmen=
 	{
 		amount=1
 		culture="hittite"
-		religion="anatolian_religion"
 	}
 }
 #Klibanos
@@ -885,7 +870,6 @@
 	{
 		amount=2
 		culture="cilician"
-		religion="roman_pantheon"
 	}
 	slaves=
 	{
@@ -903,17 +887,12 @@
 	civilization_value=28
 	culture="cilician"
 	province_rank="settlement"
-	religion="roman_pantheon"
+	religion="anatolian_religion"
 	terrain="farmland"
 	trade_goods="grain"
 	citizen=
 	{
-		amount=1
-	}
-	citizen=
-	{
-		amount=1
-		culture="ionian"
+		amount=2
 	}
 	freemen=
 	{
@@ -923,6 +902,7 @@
 	{
 		amount=2
 		culture="ionian"
+		religion="roman_pantheon"
 	}
 	slaves=
 	{
@@ -932,7 +912,6 @@
 	{
 		amount=2
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 }
 #Kastabala
@@ -1089,7 +1068,7 @@
 	civilization_value=26
 	culture="cilician"
 	province_rank="settlement"
-	religion="roman_pantheon"
+	religion="anatolian_religion"
 	terrain="plains"
 	trade_goods="fish"
 	citizen=
@@ -1104,6 +1083,7 @@
 	{
 		amount=1
 		culture="ionian"
+		religion="roman_pantheon"
 	}
 	slaves=
 	{
@@ -1113,7 +1093,6 @@
 	{
 		amount=1
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 }
 #Mopsouestia
@@ -1124,7 +1103,7 @@
 	culture="cilician"
 	port_building=1
 	province_rank="city"
-	religion="roman_pantheon"
+	religion="anatolian_religion"
 	terrain="farmland"
 	trade_goods="wine"
 	citizen=
@@ -1139,6 +1118,7 @@
 	{
 		amount=2
 		culture="ionian"
+		religion="roman_pantheon"
 	}
 	slaves=
 	{
@@ -1148,7 +1128,6 @@
 	{
 		amount=2
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 }
 #Mallos
@@ -1234,14 +1213,12 @@
 	civilization_value=33
 	culture="cilician"
 	province_rank="city"
-	religion="roman_pantheon"
+	religion="anatolian_religion"
 	terrain="plains"
 	trade_goods="olive"
 	nobles=
 	{
 		amount=1
-		culture="macedonian"
-		religion="roman_pantheon"
 	}
 	citizen=
 	{
@@ -1252,21 +1229,14 @@
 		amount=1
 		culture="ionian"
 	}
-	citizen=
+	freemen=
+	{
+		amount=5
+	}
+	freemen=
 	{
 		amount=1
-		culture="pasargadi"
-		religion="zoroaster"
-	}
-	freemen=
-	{
-		amount=4
-	}
-	freemen=
-	{
-		amount=2
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 	freemen=
 	{
@@ -1277,7 +1247,6 @@
 	{
 		amount=1
 		culture="cappadocian"
-		religion="anatolian_religion"
 	}
 	slaves=
 	{
@@ -1287,25 +1256,21 @@
 	{
 		amount=1
 		culture="cappadocian"
-		religion="anatolian_religion"
 	}
 	slaves=
 	{
 		amount=1
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 	tribesmen=
 	{
 		amount=4
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 	tribesmen=
 	{
 		amount=1
 		culture="cappadocian"
-		religion="anatolian_religion"
 	}
 }
 #Tarsos
@@ -1316,14 +1281,12 @@
 	culture="cilician"
 	port_building=1
 	province_rank="city"
-	religion="roman_pantheon"
+	religion="anatolian_religion"
 	terrain="plains"
 	trade_goods="base_metals"
 	nobles=
 	{
 		amount=1
-		culture="pasargadi"
-		religion="zoroaster"
 	}
 	citizen=
 	{
@@ -1333,35 +1296,22 @@
 	{
 		amount=1
 		culture="ionian"
-	}
-	citizen=
-	{
-		amount=1
-		culture="pasargadi"
-		religion="zoroaster"
+		religion="roman_pantheon"
 	}
 	freemen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=2
+		culture="ionian"
+		religion="roman_pantheon"
+
+	}
+	slaves=
 	{
 		amount=3
-	}
-	freemen=
-	{
-		amount=1
-		religion="anatolian_religion"
-	}
-	freemen=
-	{
-		amount=2
-		culture="ionian"
-	}
-	slaves=
-	{
-		amount=2
-	}
-	slaves=
-	{
-		amount=1
-		religion="anatolian_religion"
 	}
 	tribesmen=
 	{
@@ -1428,7 +1378,7 @@
 	civilization_value=24
 	culture="cilician"
 	province_rank="settlement"
-	religion="roman_pantheon"
+	religion="anatolian_religion"
 	terrain="hills"
 	trade_goods="wine"
 	citizen=
@@ -1443,6 +1393,7 @@
 	{
 		amount=1
 		culture="ionian"
+		religion="roman_pantheon"
 	}
 	slaves=
 	{
@@ -1452,13 +1403,11 @@
 	{
 		amount=1
 		culture="kennataian"
-		religion="anatolian_religion"
 	}
 	tribesmen=
 	{
 		amount=1
 		culture="isaurian"
-		religion="anatolian_religion"
 	}
 }
 #Magarsa
