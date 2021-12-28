@@ -298,7 +298,7 @@ HTP = "setup/countries/anatolia/hartapu.txt"
 QUE = "setup/countries/anatolia/que.txt"
 POG = "setup/countries/anatolia/pogla.txt"
 AMA = "setup/countries/anatolia/armania.txt"
-
+HLA = "setup/countries/anatolia/hilakku.txt"
 #New
 SEL = "setup/countries/caucasiamesopotamia/seleucid empire.txt"
 ADI = "setup/countries/caucasiamesopotamia/adiabene.txt"
@@ -338,6 +338,8 @@ SHK = "setup/countries/caucasiamesopotamia/shaki.txt"
 GBI = "setup/countries/caucasiamesopotamia/gumbati.txt"
 CBC = "setup/countries/caucasiamesopotamia/chambysene.txt"
 CBL = "setup/countries/caucasiamesopotamia/chambala.txt"
+PER = "setup/countries/caucasiamesopotamia/persia.txt"
+
 
 # Arabia/Persia
 OSR = "setup/countries/syria/osroene.txt"
@@ -372,6 +374,10 @@ KAR = "setup/countries/syria/karnaia.txt"
 HAU = "setup/countries/syria/hauran.txt"
 AZZ = "setup/countries/syria/azzah.txt"
 EKR = "setup/countries/syria/ekron.txt"
+LUL = "setup/countries/syria/lullubia.txt"
+KLU = "setup/countries/syria/katlimmu.txt"
+DOR = "setup/countries/syria/dor.txt"
+ATL = "setup/countries/syria/atlit.txt"
 
 ####SULLA####
 
@@ -441,6 +447,7 @@ VST = "setup/countries/italia/vestini.txt"
 HER = "setup/countries/italia/hernici.txt"
 THR = "setup/countries/italia/tharros.txt"
 SPN = "setup/countries/italia/spina.txt"
+PET = "setup/countries/italia/praetutii.txt"
 
 #Britannic
 
@@ -642,6 +649,8 @@ BCA = "setup/countries/africa/barchaeia.txt"
 GGA = "setup/countries/africa/giligamae.txt"
 TNG = "setup/countries/africa/tingis.txt"
 GYZ = "setup/countries/africa/gyzantes.txt"
+# OTHER AFRICA 
+DMT = "setup/countries/africa/dmt.txt"
 
 #Gaul
 
