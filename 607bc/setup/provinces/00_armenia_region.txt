@@ -3,7 +3,7 @@
 {
 	barbarian_power=0
 	civilization_value=16.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="mountain"
@@ -22,7 +22,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -33,7 +33,7 @@
 	}
 	freemen=
 	{
-		amount=1
+		amount=3
 	}
 	slaves=
 	{
@@ -49,7 +49,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -72,7 +72,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -99,20 +99,24 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
-	province_rank="settlement"
+	culture="nairi"
+	province_rank="city"
 	religion="armenian_religion"
 	terrain="forest"
 	trade_goods="horses"
+	nobles=
+	{
+		amount=2
+	}
+	citizen=
+	{
+		amount=5
+	}
 	freemen=
 	{
-		amount=1
+		amount=6
 	}
 	slaves=
-	{
-		amount=1
-	}
-	tribesmen=
 	{
 		amount=3
 	}
@@ -122,7 +126,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -172,7 +176,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="forest"
@@ -195,27 +199,18 @@
 {
 	barbarian_power=0
 	civilization_value=16.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="mountain"
 	trade_goods="vegetables"
-	freemen=
-	{
-		amount=1
-	}
 	slaves=
 	{
 		amount=1
 	}
 	tribesmen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=1
-		religion="zoroaster"
+		amount=2
 	}
 }
 #Calata
@@ -250,7 +245,7 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	holy_site="omen_vahagn"
 	province_rank="settlement"
 	religion="armenian_religion"
@@ -270,18 +265,22 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="forest"
 	trade_goods="fish"
+	citizen=
+	{
+		amount=2
+	}
 	freemen=
 	{
-		amount=1
+		amount=4
 	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 #Alouaka
@@ -289,7 +288,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -308,7 +307,7 @@
 {
 	barbarian_power=0
 	civilization_value=16.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="mountain"
@@ -325,25 +324,20 @@
 	{
 		amount=1
 	}
-	tribesmen=
-	{
-		amount=2
-		religion="zoroaster"
-	}
 }
 #Artemita Vaspurakan
 998=
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="vegetables"
 	freemen=
 	{
-		amount=1
+		amount=3
 	}
 	slaves=
 	{
@@ -359,14 +353,14 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="forest"
 	trade_goods="wood"
 	freemen=
 	{
-		amount=1
+		amount=2
 	}
 	slaves=
 	{
@@ -382,9 +376,9 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="cattle"
 	citizen=
@@ -433,9 +427,9 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="grain"
 	slaves=
@@ -452,19 +446,14 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="horses"
 	slaves=
 	{
 		amount=1
-	}
-	tribesmen=
-	{
-		amount=1
-		religion="armenian_religion"
 	}
 	tribesmen=
 	{
@@ -476,9 +465,9 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="cattle"
 	citizen=
@@ -488,16 +477,10 @@
 	freemen=
 	{
 		amount=1
-		religion="armenian_religion"
 	}
 	slaves=
 	{
 		amount=1
-	}
-	tribesmen=
-	{
-		amount=1
-		religion="armenian_religion"
 	}
 	tribesmen=
 	{
@@ -509,9 +492,9 @@
 {
 	barbarian_power=0
 	civilization_value=21
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="fish"
 	freemen=
@@ -532,9 +515,9 @@
 {
 	barbarian_power=0
 	civilization_value=21
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="grain"
 	freemen=
@@ -555,9 +538,9 @@
 {
 	barbarian_power=0
 	civilization_value=21
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="leather"
 	freemen=
@@ -578,9 +561,9 @@
 {
 	barbarian_power=0
 	civilization_value=19
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="vegetables"
 	slaves=
@@ -635,9 +618,9 @@
 {
 	barbarian_power=0
 	civilization_value=21
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="vegetables"
 	slaves=
@@ -654,9 +637,9 @@
 {
 	barbarian_power=0
 	civilization_value=19
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="fish"
 	citizen=
@@ -681,9 +664,9 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="cattle"
 	citizen=
@@ -704,9 +687,9 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="leather"
 	citizen=
@@ -727,9 +710,9 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="cattle"
 	citizen=
@@ -796,9 +779,9 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="stone"
 	citizen=
@@ -819,19 +802,14 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="horses"
 	freemen=
 	{
 		amount=1
-	}
-	tribesmen=
-	{
-		amount=1
-		religion="armenian_religion"
 	}
 	tribesmen=
 	{
@@ -843,7 +821,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -866,7 +844,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -889,7 +867,7 @@
 {
 	barbarian_power=0
 	civilization_value=16.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="mountain"
@@ -912,7 +890,7 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="plains"
@@ -1024,9 +1002,9 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="grain"
 	freemen=
@@ -1039,11 +1017,6 @@
 	}
 	tribesmen=
 	{
-		amount=1
-		religion="armenian_religion"
-	}
-	tribesmen=
-	{
 		amount=2
 	}
 }
@@ -1052,9 +1025,9 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="grain"
 	freemen=
@@ -1075,28 +1048,18 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="vegetables"
 	freemen=
 	{
-		amount=1
+		amount=2
 	}
 	slaves=
 	{
 		amount=1
-		religion="armenian_religion"
-	}
-	slaves=
-	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=1
-		religion="armenian_religion"
 	}
 	tribesmen=
 	{
@@ -1108,28 +1071,18 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="leather"
 	freemen=
 	{
-		amount=1
-		religion="armenian_religion"
-	}
-	freemen=
-	{
-		amount=1
+		amount=2
 	}
 	slaves=
 	{
 		amount=2
-	}
-	tribesmen=
-	{
-		amount=1
-		religion="armenian_religion"
 	}
 	tribesmen=
 	{
@@ -1141,7 +1094,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -1158,18 +1111,13 @@
 	{
 		amount=2
 	}
-	tribesmen=
-	{
-		amount=1
-		religion="zoroaster"
-	}
 }
 #Shawarshan
 1546=
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -1177,7 +1125,6 @@
 	freemen=
 	{
 		amount=1
-		religion="zoroaster"
 	}
 	slaves=
 	{
@@ -1193,7 +1140,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -1212,7 +1159,7 @@
 {
 	barbarian_power=0
 	civilization_value=16.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="mountain"
@@ -1240,7 +1187,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -1263,14 +1210,14 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="grain"
 	freemen=
 	{
-		amount=7
+		amount=6
 	}
 	slaves=
 	{
@@ -1286,9 +1233,9 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="vegetables"
 	freemen=
@@ -1314,7 +1261,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -1337,7 +1284,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -1360,14 +1307,14 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
 	trade_goods="vegetables"
 	freemen=
 	{
-		amount=1
+		amount=2
 	}
 	slaves=
 	{
@@ -1554,19 +1501,19 @@
 	}
 	citizen=
 	{
-		amount=10
+		amount=3
 	}
 	freemen=
 	{
-		amount=10
+		amount=4
 	}
 	slaves=
 	{
-		amount=8
+		amount=2
 	}
 	tribesmen=
 	{
-		amount=8
+		amount=4
 	}
 }
 #Artaxata
@@ -1574,42 +1521,27 @@
 {
 	barbarian_power=0
 	civilization_value=31.5
-	culture="armenian"
+	culture="nairi"
 	holy_site="omen_tir"
 	province_rank="city"
-	religion="zoroaster"
+	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="horses"
 	citizen=
 	{
-		amount=3
+		amount=1
 	}
 	freemen=
-	{
-		amount=1
-		religion="armenian_religion"
-	}
-	freemen=
-	{
-		amount=8
-	}
-	slaves=
-	{
-		amount=1
-		religion="armenian_religion"
-	}
-	slaves=
-	{
-		amount=18
-	}
-	tribesmen=
 	{
 		amount=2
-		religion="armenian_religion"
+	}
+	slaves=
+	{
+		amount=3
 	}
 	tribesmen=
 	{
-		amount=8
+		amount=3
 	}
 }
 #Doubios
@@ -1644,7 +1576,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -1663,19 +1595,23 @@
 {
 	barbarian_power=0
 	civilization_value=20.5
-	culture="armenian"
+	culture="nairi"
 	holy_site="omen_theispas"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="plains"
 	trade_goods="vegetables"
+	citizen=
+	{
+		amount=3
+	}
 	freemen=
 	{
-		amount=1
+		amount=4
 	}
 	slaves=
 	{
-		amount=1
+		amount=2
 	}
 	tribesmen=
 	{
@@ -1871,7 +1807,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="forest"
@@ -1894,7 +1830,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="forest"
@@ -1940,7 +1876,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	holy_site="omen_tsovinar"
 	province_rank="settlement"
 	religion="armenian_religion"
@@ -1960,7 +1896,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="forest"
@@ -2368,7 +2304,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	holy_site="omen_mihr"
 	province_rank="settlement"
 	religion="armenian_religion"
@@ -2444,7 +2380,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -2500,7 +2436,7 @@
 {
 	barbarian_power=0
 	civilization_value=18.5
-	culture="armenian"
+	culture="nairi"
 	province_rank="settlement"
 	religion="armenian_religion"
 	terrain="hills"
@@ -2516,10 +2452,5 @@
 	tribesmen=
 	{
 		amount=1
-	}
-	tribesmen=
-	{
-		amount=1
-		religion="zoroaster"
 	}
 }
